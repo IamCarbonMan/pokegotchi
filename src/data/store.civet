@@ -1,0 +1,110 @@
+{createContext, useContext, onCleanup, createEffect} from solid-js
+{createStore} from solid-js/store
+Gun from gun/gun
+import gun/sea
+import gun/lib/radix
+import gun/lib/radisk
+import gun/lib/store
+import gun/lib/rindexed
+localforage from localforage
+
+const StoreContext = createContext<any>()
+
+export const StoreProvider = (props) ->
+    const gun = Gun
+                    //peers: ['http://localhost:8765/gun']
+                    localStorage: false
+    window['gun'] = gun
+    const schema =
+        key: null
+        err: null
+        name: ''
+        currentMon: ''
+        habit: {}
+        pokemon: {}
+        inventory: {}
+    const [state, setState] = createStore schema
+                                
+    const store =
+        store: state
+        signup: ->
+            Gun.SEA.pair (key) ->
+                if key
+                    gun.user().auth key, (ack) -> authCallback key, ack
+                else
+                    setState err: Gun.SEA.err
+        signin: (key) -> gun.user().auth key, (ack) -> authCallback key, ack
+        signout: ->
+            gun.user().leave()
+            localforage.setItem 'pokegotchi-key', '', ->
+                setState
+                    key: null
+                    err: null
+                    name: ''
+                    currentMon: ''
+                    habit: {}
+                    pokemon: {}
+                    inventory: {}
+        autosignin: ->
+            localforage.getItem 'pokegotchi-key', (err, key) ->
+                if err or !key
+                    setState err: err
+                else
+                    gun.user().auth (key as any), (ack) -> authCallback key, ack
+
+    const put = (path, data, set = false, id = '') ->
+            if gun.user().is
+                const loc = ((gun.user().get path) as any)
+                if set
+                    if id
+                        loc.get id
+                           .put data
+                    else
+                        loc.set data
+                else
+                    loc.put data
+    
+    const subscribe = (path, map = true) -> createEffect ->
+        if path is 'key' or path is 'err' return
+        let ev = null
+        if state.key
+            const cb = (data, id, _msg, _ev) ->
+                ev = _ev
+                if map
+                    const {_: remove, ...rest} = data
+                    setState path, id, rest
+                else
+                    setState path, data
+            const node = ((gun.user().get path) as any)
+            if map
+                node.map().on cb
+            else
+                node.on cb
+        onCleanup ->
+            try
+                ev.off()
+    
+    const authCallback = (key, ack) ->
+        if ack.err
+            setState err: ack.err
+        else
+            localforage.setItem 'pokegotchi-key', key
+            gun.user().get 'loggedIn'
+                      .put new Date().toString()
+            setState key: key
+    
+    for path of Object.keys schema
+        if path is 'key' or path is 'err'
+            continue
+        const methodname = 'put' + path[0].toUpperCase() + path.substring 1
+        if typeof schema[path] is 'string'
+            store[methodname] = (val) -> put path, val
+            subscribe path, false
+        else
+            store[methodname] = (val, id = '') -> put path, val, true, id
+            subscribe path
+
+    <StoreContext.Provider value={store}>
+        {props.children}
+
+export const useStore = -> useContext StoreContext

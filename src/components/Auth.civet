@@ -1,0 +1,12 @@
+{onMount} from solid-js
+{useStore} from ../data/store.civet
+
+export default ->
+    const {store, signup, signin, autosignin} = useStore()
+    onMount autosignin
+    const handleEnter = (e) ->
+        if e.keyCode is 13
+            signin JSON.parse atob e.target.value
+    <div>
+        <button onClick=signup>Signup!
+        <input type="text" onKeyDown=handleEnter placeholder="Or enter your key here to sign in">

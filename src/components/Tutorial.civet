@@ -1,0 +1,19 @@
+{useStore} from ../data/store.civet
+{genMon} from ../data/pokemon.civet
+
+export default ->
+    const {store, putName, putPokemon} = useStore()
+    const handleSubmit = (e) ->
+        e.preventDefault()
+        const sel = e.target.elements[1]
+        putPokemon genMon sel.options[sel.selectedIndex].value
+        putName e.target.elements[0].value
+    <div>
+        <form onSubmit=handleSubmit>
+            <input type="text" name="name" placeholder="What is your name?">
+            <p>Choose your first Pokemon!
+            <select name="mon">
+                <option value="Bulbasaur">Bulbasaur
+                <option value="Charmander">Charmander
+                <option value="Squirtle">Squirtle
+            <input type="submit">Let's go!

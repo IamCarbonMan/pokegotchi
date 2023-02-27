@@ -1,0 +1,9 @@
+{useStore} from ../data/store.civet
+
+export default ->
+    const {store, signout} = useStore()
+    const numMons = -> (Object.keys store.pokemon).length
+    const showKey = -> btoa JSON.stringify store.key
+    <div>
+        <p>Your name is {store.name}, you have {numMons} Pokemon, and your key is {showKey}
+        <button onClick={signout}>Click here to sign out

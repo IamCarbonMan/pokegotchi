@@ -1,0 +1,9 @@
+{render} from solid-js/web
+{StoreProvider} from ./data/store.civet
+App from ./components/App.civet
+
+const root = ->
+    <StoreProvider>
+        <App>
+
+render root, document.getElementById 'root'

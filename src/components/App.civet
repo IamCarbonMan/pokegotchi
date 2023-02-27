@@ -1,0 +1,18 @@
+{Switch, Match} from solid-js
+{useStore} from ../data/store.civet
+Tutorial from ./Tutorial.civet
+Game from ./Game.civet
+Auth from ./Auth.civet
+
+export default ->
+  const {store} = useStore()
+  const tutorialized = -> store.name and (Object.keys store.pokemon).length > 0
+  <Switch>
+    <Match when={store.key}>
+      <Switch>
+        <Match when={tutorialized()}>
+          <Game>
+        <Match when={true}>
+          <Tutorial>
+    <Match when={true}>
+      <Auth>

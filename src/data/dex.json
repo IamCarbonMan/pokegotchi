@@ -1,0 +1,9231 @@
+{
+    "Bulbasaur": {
+        "name": "Bulbasaur",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Ivysaur": "Ivysaur"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Ivysaur": {
+        "name": "Ivysaur",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Venusaur": "Venusaur"
+        },
+        "prevo": "Bulbasaur",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Venusaur": {
+        "name": "Venusaur",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "prevo": "Ivysaur",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Charmander": {
+        "name": "Charmander",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Charmeleon": "Charmeleon"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Charmeleon": {
+        "name": "Charmeleon",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Charizard": "Charizard"
+        },
+        "prevo": "Charmander",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Charizard": {
+        "name": "Charizard",
+        "types": {
+            "Fire": "Fire",
+            "Flying": "Flying"
+        },
+        "prevo": "Charmeleon",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Squirtle": {
+        "name": "Squirtle",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Wartortle": "Wartortle"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Wartortle": {
+        "name": "Wartortle",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Blastoise": "Blastoise"
+        },
+        "prevo": "Squirtle",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Blastoise": {
+        "name": "Blastoise",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Wartortle",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Caterpie": {
+        "name": "Caterpie",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Metapod": "Metapod"
+        }
+    },
+    "Metapod": {
+        "name": "Metapod",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Butterfree": "Butterfree"
+        },
+        "prevo": "Caterpie"
+    },
+    "Butterfree": {
+        "name": "Butterfree",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Metapod"
+    },
+    "Weedle": {
+        "name": "Weedle",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Kakuna": "Kakuna"
+        }
+    },
+    "Kakuna": {
+        "name": "Kakuna",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Beedrill": "Beedrill"
+        },
+        "prevo": "Weedle"
+    },
+    "Beedrill": {
+        "name": "Beedrill",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "prevo": "Kakuna"
+    },
+    "Pidgey": {
+        "name": "Pidgey",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Pidgeotto": "Pidgeotto"
+        }
+    },
+    "Pidgeotto": {
+        "name": "Pidgeotto",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Pidgeot": "Pidgeot"
+        },
+        "prevo": "Pidgey"
+    },
+    "Pidgeot": {
+        "name": "Pidgeot",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Pidgeotto"
+    },
+    "Rattata": {
+        "name": "Rattata",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Raticate": "Raticate"
+        }
+    },
+    "Alolan Rattata": {
+        "name": "Alolan Rattata",
+        "types": {
+            "Dark": "Dark",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Alolan Raticate": "Alolan Raticate"
+        }
+    },
+    "Raticate": {
+        "name": "Raticate",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Rattata"
+    },
+    "Alolan Raticate": {
+        "name": "Alolan Raticate",
+        "types": {
+            "Dark": "Dark",
+            "Normal": "Normal"
+        }
+    },
+    "Spearow": {
+        "name": "Spearow",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Fearow": "Fearow"
+        }
+    },
+    "Fearow": {
+        "name": "Fearow",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Spearow"
+    },
+    "Ekans": {
+        "name": "Ekans",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Arbok": "Arbok"
+        }
+    },
+    "Arbok": {
+        "name": "Arbok",
+        "types": {
+            "Poison": "Poison"
+        },
+        "prevo": "Ekans"
+    },
+    "Pikachu": {
+        "name": "Pikachu",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Raichu": "Raichu",
+            "Alolan Raichu": "Alolan Raichu"
+        },
+        "prevo": "Pichu"
+    },
+    "Pikachu-Cosplay": {
+        "name": "Pikachu-Cosplay",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-Rock-Star": {
+        "name": "Pikachu-Rock-Star",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-Belle": {
+        "name": "Pikachu-Belle",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-Pop-Star": {
+        "name": "Pikachu-Pop-Star",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-PhD": {
+        "name": "Pikachu-PhD",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-Libre": {
+        "name": "Pikachu-Libre",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "F"
+    },
+    "Pikachu-Original": {
+        "name": "Pikachu-Original",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-Hoenn": {
+        "name": "Pikachu-Hoenn",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-Sinnoh": {
+        "name": "Pikachu-Sinnoh",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-Unova": {
+        "name": "Pikachu-Unova",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-Kalos": {
+        "name": "Pikachu-Kalos",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Alolan Pikachu": {
+        "name": "Alolan Pikachu",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-Partner": {
+        "name": "Pikachu-Partner",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Pikachu-World": {
+        "name": "Pikachu-World",
+        "types": {
+            "Electric": "Electric"
+        },
+        "gender": "M"
+    },
+    "Raichu": {
+        "name": "Raichu",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Pikachu"
+    },
+    "Alolan Raichu": {
+        "name": "Alolan Raichu",
+        "types": {
+            "Electric": "Electric",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Pikachu"
+    },
+    "Sandshrew": {
+        "name": "Sandshrew",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Sandslash": "Sandslash"
+        }
+    },
+    "Alolan Sandshrew": {
+        "name": "Alolan Sandshrew",
+        "types": {
+            "Ice": "Ice",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Alolan Sandslash": "Alolan Sandslash"
+        }
+    },
+    "Sandslash": {
+        "name": "Sandslash",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Sandshrew"
+    },
+    "Alolan Sandslash": {
+        "name": "Alolan Sandslash",
+        "types": {
+            "Ice": "Ice",
+            "Steel": "Steel"
+        },
+        "prevo": "Alolan Sandshrew"
+    },
+    "Nidoran ♀": {
+        "name": "Nidoran ♀",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Nidorina": "Nidorina"
+        },
+        "gender": "F"
+    },
+    "Nidorina": {
+        "name": "Nidorina",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Nidoqueen": "Nidoqueen"
+        },
+        "prevo": "Nidoran ♀",
+        "gender": "F"
+    },
+    "Nidoqueen": {
+        "name": "Nidoqueen",
+        "types": {
+            "Poison": "Poison",
+            "Ground": "Ground"
+        },
+        "prevo": "Nidorina",
+        "gender": "F"
+    },
+    "Nidoran ♂": {
+        "name": "Nidoran ♂",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Nidorino": "Nidorino"
+        },
+        "gender": "M"
+    },
+    "Nidorino": {
+        "name": "Nidorino",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Nidoking": "Nidoking"
+        },
+        "prevo": "Nidoran ♂",
+        "gender": "M"
+    },
+    "Nidoking": {
+        "name": "Nidoking",
+        "types": {
+            "Poison": "Poison",
+            "Ground": "Ground"
+        },
+        "prevo": "Nidorino",
+        "gender": "M"
+    },
+    "Clefairy": {
+        "name": "Clefairy",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Clefable": "Clefable"
+        },
+        "prevo": "Cleffa",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Clefable": {
+        "name": "Clefable",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Clefairy",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Vulpix": {
+        "name": "Vulpix",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Ninetales": "Ninetales"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Alolan Vulpix": {
+        "name": "Alolan Vulpix",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Alolan Ninetales": "Alolan Ninetales"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Ninetales": {
+        "name": "Ninetales",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Vulpix",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Alolan Ninetales": {
+        "name": "Alolan Ninetales",
+        "types": {
+            "Ice": "Ice",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Alolan Vulpix",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Jigglypuff": {
+        "name": "Jigglypuff",
+        "types": {
+            "Normal": "Normal",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Wigglytuff": "Wigglytuff"
+        },
+        "prevo": "Igglybuff",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Wigglytuff": {
+        "name": "Wigglytuff",
+        "types": {
+            "Normal": "Normal",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Jigglypuff",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Zubat": {
+        "name": "Zubat",
+        "types": {
+            "Poison": "Poison",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Golbat": "Golbat"
+        }
+    },
+    "Golbat": {
+        "name": "Golbat",
+        "types": {
+            "Poison": "Poison",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Crobat": "Crobat"
+        },
+        "prevo": "Zubat"
+    },
+    "Oddish": {
+        "name": "Oddish",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Gloom": "Gloom"
+        }
+    },
+    "Gloom": {
+        "name": "Gloom",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Vileplume": "Vileplume",
+            "Bellossom": "Bellossom"
+        },
+        "prevo": "Oddish"
+    },
+    "Vileplume": {
+        "name": "Vileplume",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "prevo": "Gloom"
+    },
+    "Paras": {
+        "name": "Paras",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Parasect": "Parasect"
+        }
+    },
+    "Parasect": {
+        "name": "Parasect",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "prevo": "Paras"
+    },
+    "Venonat": {
+        "name": "Venonat",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Venomoth": "Venomoth"
+        }
+    },
+    "Venomoth": {
+        "name": "Venomoth",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "prevo": "Venonat"
+    },
+    "Diglett": {
+        "name": "Diglett",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Dugtrio": "Dugtrio"
+        }
+    },
+    "Alolan Diglett": {
+        "name": "Alolan Diglett",
+        "types": {
+            "Ground": "Ground",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Alolan Dugtrio": "Alolan Dugtrio"
+        }
+    },
+    "Dugtrio": {
+        "name": "Dugtrio",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Diglett"
+    },
+    "Alolan Dugtrio": {
+        "name": "Alolan Dugtrio",
+        "types": {
+            "Ground": "Ground",
+            "Steel": "Steel"
+        },
+        "prevo": "Alolan Diglett"
+    },
+    "Meowth": {
+        "name": "Meowth",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Persian": "Persian"
+        }
+    },
+    "Alolan Meowth": {
+        "name": "Alolan Meowth",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Alolan Persian": "Alolan Persian"
+        }
+    },
+    "Galarian Meowth": {
+        "name": "Galarian Meowth",
+        "types": {
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Perrserker": "Perrserker"
+        }
+    },
+    "Persian": {
+        "name": "Persian",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Meowth"
+    },
+    "Alolan Persian": {
+        "name": "Alolan Persian",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Alolan Meowth"
+    },
+    "Psyduck": {
+        "name": "Psyduck",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Golduck": "Golduck"
+        }
+    },
+    "Golduck": {
+        "name": "Golduck",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Psyduck"
+    },
+    "Mankey": {
+        "name": "Mankey",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Primeape": "Primeape"
+        }
+    },
+    "Primeape": {
+        "name": "Primeape",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Annihilape": "Annihilape"
+        },
+        "prevo": "Mankey"
+    },
+    "Growlithe": {
+        "name": "Growlithe",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Arcanine": "Arcanine"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Growlithe-Hisui": {
+        "name": "Growlithe-Hisui",
+        "types": {
+            "Fire": "Fire",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Arcanine-Hisui": "Arcanine-Hisui"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Arcanine": {
+        "name": "Arcanine",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Growlithe",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Arcanine-Hisui": {
+        "name": "Arcanine-Hisui",
+        "types": {
+            "Fire": "Fire",
+            "Rock": "Rock"
+        },
+        "prevo": "Growlithe-Hisui",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Poliwag": {
+        "name": "Poliwag",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Poliwhirl": "Poliwhirl"
+        }
+    },
+    "Poliwhirl": {
+        "name": "Poliwhirl",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Poliwrath": "Poliwrath",
+            "Politoed": "Politoed"
+        },
+        "prevo": "Poliwag"
+    },
+    "Poliwrath": {
+        "name": "Poliwrath",
+        "types": {
+            "Water": "Water",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Poliwhirl"
+    },
+    "Abra": {
+        "name": "Abra",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Kadabra": "Kadabra"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Kadabra": {
+        "name": "Kadabra",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Alakazam": "Alakazam"
+        },
+        "prevo": "Abra",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Alakazam": {
+        "name": "Alakazam",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Kadabra",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Machop": {
+        "name": "Machop",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Machoke": "Machoke"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Machoke": {
+        "name": "Machoke",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Machamp": "Machamp"
+        },
+        "prevo": "Machop",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Machamp": {
+        "name": "Machamp",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Machoke",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Bellsprout": {
+        "name": "Bellsprout",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Weepinbell": "Weepinbell"
+        }
+    },
+    "Weepinbell": {
+        "name": "Weepinbell",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Victreebel": "Victreebel"
+        },
+        "prevo": "Bellsprout"
+    },
+    "Victreebel": {
+        "name": "Victreebel",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "prevo": "Weepinbell"
+    },
+    "Tentacool": {
+        "name": "Tentacool",
+        "types": {
+            "Water": "Water",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Tentacruel": "Tentacruel"
+        }
+    },
+    "Tentacruel": {
+        "name": "Tentacruel",
+        "types": {
+            "Water": "Water",
+            "Poison": "Poison"
+        },
+        "prevo": "Tentacool"
+    },
+    "Geodude": {
+        "name": "Geodude",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Graveler": "Graveler"
+        }
+    },
+    "Alolan Geodude": {
+        "name": "Alolan Geodude",
+        "types": {
+            "Rock": "Rock",
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Alolan Graveler": "Alolan Graveler"
+        }
+    },
+    "Graveler": {
+        "name": "Graveler",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Golem": "Golem"
+        },
+        "prevo": "Geodude"
+    },
+    "Alolan Graveler": {
+        "name": "Alolan Graveler",
+        "types": {
+            "Rock": "Rock",
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Alolan Golem": "Alolan Golem"
+        },
+        "prevo": "Alolan Geodude"
+    },
+    "Golem": {
+        "name": "Golem",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "prevo": "Graveler"
+    },
+    "Alolan Golem": {
+        "name": "Alolan Golem",
+        "types": {
+            "Rock": "Rock",
+            "Electric": "Electric"
+        },
+        "prevo": "Alolan Graveler"
+    },
+    "Ponyta": {
+        "name": "Ponyta",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Rapidash": "Rapidash"
+        }
+    },
+    "Galarian Ponyta": {
+        "name": "Galarian Ponyta",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Galarian Rapidash": "Galarian Rapidash"
+        }
+    },
+    "Rapidash": {
+        "name": "Rapidash",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Ponyta"
+    },
+    "Galarian Rapidash": {
+        "name": "Galarian Rapidash",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Galarian Ponyta"
+    },
+    "Slowpoke": {
+        "name": "Slowpoke",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Slowbro": "Slowbro",
+            "Slowking": "Slowking"
+        }
+    },
+    "Galarian Slowpoke": {
+        "name": "Galarian Slowpoke",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Galarian Slowbro": "Galarian Slowbro",
+            "Galarian Slowking": "Galarian Slowking"
+        }
+    },
+    "Slowbro": {
+        "name": "Slowbro",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Slowpoke"
+    },
+    "Galarian Slowbro": {
+        "name": "Galarian Slowbro",
+        "types": {
+            "Poison": "Poison",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Galarian Slowpoke"
+    },
+    "Magnemite": {
+        "name": "Magnemite",
+        "types": {
+            "Electric": "Electric",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Magneton": "Magneton"
+        },
+        "gender": "N"
+    },
+    "Magneton": {
+        "name": "Magneton",
+        "types": {
+            "Electric": "Electric",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Magnezone": "Magnezone"
+        },
+        "prevo": "Magnemite",
+        "gender": "N"
+    },
+    "Farfetch’d": {
+        "name": "Farfetch’d",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Galarian Farfetch’d": {
+        "name": "Galarian Farfetch’d",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Sirfetch’d": "Sirfetch’d"
+        }
+    },
+    "Doduo": {
+        "name": "Doduo",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Dodrio": "Dodrio"
+        }
+    },
+    "Dodrio": {
+        "name": "Dodrio",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Doduo"
+    },
+    "Seel": {
+        "name": "Seel",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Dewgong": "Dewgong"
+        }
+    },
+    "Dewgong": {
+        "name": "Dewgong",
+        "types": {
+            "Water": "Water",
+            "Ice": "Ice"
+        },
+        "prevo": "Seel"
+    },
+    "Grimer": {
+        "name": "Grimer",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Muk": "Muk"
+        }
+    },
+    "Alolan Grimer": {
+        "name": "Alolan Grimer",
+        "types": {
+            "Poison": "Poison",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Alolan Muk": "Alolan Muk"
+        }
+    },
+    "Muk": {
+        "name": "Muk",
+        "types": {
+            "Poison": "Poison"
+        },
+        "prevo": "Grimer"
+    },
+    "Alolan Muk": {
+        "name": "Alolan Muk",
+        "types": {
+            "Poison": "Poison",
+            "Dark": "Dark"
+        },
+        "prevo": "Alolan Grimer"
+    },
+    "Shellder": {
+        "name": "Shellder",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Cloyster": "Cloyster"
+        }
+    },
+    "Cloyster": {
+        "name": "Cloyster",
+        "types": {
+            "Water": "Water",
+            "Ice": "Ice"
+        },
+        "prevo": "Shellder"
+    },
+    "Gastly": {
+        "name": "Gastly",
+        "types": {
+            "Ghost": "Ghost",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Haunter": "Haunter"
+        }
+    },
+    "Haunter": {
+        "name": "Haunter",
+        "types": {
+            "Ghost": "Ghost",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Gengar": "Gengar"
+        },
+        "prevo": "Gastly"
+    },
+    "Gengar": {
+        "name": "Gengar",
+        "types": {
+            "Ghost": "Ghost",
+            "Poison": "Poison"
+        },
+        "prevo": "Haunter"
+    },
+    "Onix": {
+        "name": "Onix",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Steelix": "Steelix"
+        }
+    },
+    "Drowzee": {
+        "name": "Drowzee",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Hypno": "Hypno"
+        }
+    },
+    "Hypno": {
+        "name": "Hypno",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Drowzee"
+    },
+    "Krabby": {
+        "name": "Krabby",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Kingler": "Kingler"
+        }
+    },
+    "Kingler": {
+        "name": "Kingler",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Krabby"
+    },
+    "Voltorb": {
+        "name": "Voltorb",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Electrode": "Electrode"
+        },
+        "gender": "N"
+    },
+    "Voltorb-Hisui": {
+        "name": "Voltorb-Hisui",
+        "types": {
+            "Electric": "Electric",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Electrode-Hisui": "Electrode-Hisui"
+        },
+        "gender": "N"
+    },
+    "Electrode": {
+        "name": "Electrode",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Voltorb",
+        "gender": "N"
+    },
+    "Electrode-Hisui": {
+        "name": "Electrode-Hisui",
+        "types": {
+            "Electric": "Electric",
+            "Grass": "Grass"
+        },
+        "prevo": "Voltorb-Hisui",
+        "gender": "N"
+    },
+    "Exeggcute": {
+        "name": "Exeggcute",
+        "types": {
+            "Grass": "Grass",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Exeggutor": "Exeggutor",
+            "Alolan Exeggutor": "Alolan Exeggutor"
+        }
+    },
+    "Exeggutor": {
+        "name": "Exeggutor",
+        "types": {
+            "Grass": "Grass",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Exeggcute"
+    },
+    "Alolan Exeggutor": {
+        "name": "Alolan Exeggutor",
+        "types": {
+            "Grass": "Grass",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Exeggcute"
+    },
+    "Cubone": {
+        "name": "Cubone",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Marowak": "Marowak",
+            "Alolan Marowak": "Alolan Marowak"
+        }
+    },
+    "Marowak": {
+        "name": "Marowak",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Cubone"
+    },
+    "Alolan Marowak": {
+        "name": "Alolan Marowak",
+        "types": {
+            "Fire": "Fire",
+            "Ghost": "Ghost"
+        }
+    },
+    "Hitmonlee": {
+        "name": "Hitmonlee",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Tyrogue",
+        "gender": "M"
+    },
+    "Hitmonchan": {
+        "name": "Hitmonchan",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Tyrogue",
+        "gender": "M"
+    },
+    "Lickitung": {
+        "name": "Lickitung",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Lickilicky": "Lickilicky"
+        }
+    },
+    "Koffing": {
+        "name": "Koffing",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Weezing": "Weezing",
+            "Galarian Weezing": "Galarian Weezing"
+        }
+    },
+    "Weezing": {
+        "name": "Weezing",
+        "types": {
+            "Poison": "Poison"
+        },
+        "prevo": "Koffing"
+    },
+    "Galarian Weezing": {
+        "name": "Galarian Weezing",
+        "types": {
+            "Poison": "Poison",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Koffing"
+    },
+    "Rhyhorn": {
+        "name": "Rhyhorn",
+        "types": {
+            "Ground": "Ground",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Rhydon": "Rhydon"
+        }
+    },
+    "Rhydon": {
+        "name": "Rhydon",
+        "types": {
+            "Ground": "Ground",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Rhyperior": "Rhyperior"
+        },
+        "prevo": "Rhyhorn"
+    },
+    "Chansey": {
+        "name": "Chansey",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Blissey": "Blissey"
+        },
+        "prevo": "Happiny",
+        "gender": "F"
+    },
+    "Tangela": {
+        "name": "Tangela",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Tangrowth": "Tangrowth"
+        }
+    },
+    "Kangaskhan": {
+        "name": "Kangaskhan",
+        "types": {
+            "Normal": "Normal"
+        },
+        "gender": "F"
+    },
+    "Horsea": {
+        "name": "Horsea",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Seadra": "Seadra"
+        }
+    },
+    "Seadra": {
+        "name": "Seadra",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Kingdra": "Kingdra"
+        },
+        "prevo": "Horsea"
+    },
+    "Goldeen": {
+        "name": "Goldeen",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Seaking": "Seaking"
+        }
+    },
+    "Seaking": {
+        "name": "Seaking",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Goldeen"
+    },
+    "Staryu": {
+        "name": "Staryu",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Starmie": "Starmie"
+        },
+        "gender": "N"
+    },
+    "Starmie": {
+        "name": "Starmie",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Staryu",
+        "gender": "N"
+    },
+    "Mr. Mime": {
+        "name": "Mr. Mime",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Mime Jr."
+    },
+    "Galarian Mr. Mime": {
+        "name": "Galarian Mr. Mime",
+        "types": {
+            "Ice": "Ice",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Mr. Rime": "Mr. Rime"
+        },
+        "prevo": "Mime Jr."
+    },
+    "Scyther": {
+        "name": "Scyther",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Scizor": "Scizor",
+            "Kleavor": "Kleavor"
+        }
+    },
+    "Jynx": {
+        "name": "Jynx",
+        "types": {
+            "Ice": "Ice",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Smoochum",
+        "gender": "F"
+    },
+    "Electabuzz": {
+        "name": "Electabuzz",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Electivire": "Electivire"
+        },
+        "prevo": "Elekid",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Magmar": {
+        "name": "Magmar",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Magmortar": "Magmortar"
+        },
+        "prevo": "Magby",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Pinsir": {
+        "name": "Pinsir",
+        "types": {
+            "Bug": "Bug"
+        }
+    },
+    "Tauros": {
+        "name": "Tauros",
+        "types": {
+            "Normal": "Normal"
+        },
+        "gender": "M"
+    },
+    "Paldean Tauros (Combat)": {
+        "name": "Paldean Tauros (Combat)",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "gender": "M"
+    },
+    "Paldean Tauros (Blaze)": {
+        "name": "Paldean Tauros (Blaze)",
+        "types": {
+            "Fighting": "Fighting",
+            "Fire": "Fire"
+        },
+        "gender": "M"
+    },
+    "Paldean Tauros (Aqua)": {
+        "name": "Paldean Tauros (Aqua)",
+        "types": {
+            "Fighting": "Fighting",
+            "Water": "Water"
+        },
+        "gender": "M"
+    },
+    "Magikarp": {
+        "name": "Magikarp",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Gyarados": "Gyarados"
+        }
+    },
+    "Gyarados": {
+        "name": "Gyarados",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "prevo": "Magikarp"
+    },
+    "Lapras": {
+        "name": "Lapras",
+        "types": {
+            "Water": "Water",
+            "Ice": "Ice"
+        }
+    },
+    "Ditto": {
+        "name": "Ditto",
+        "types": {
+            "Normal": "Normal"
+        },
+        "gender": "N"
+    },
+    "Eevee": {
+        "name": "Eevee",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Vaporeon": "Vaporeon",
+            "Jolteon": "Jolteon",
+            "Flareon": "Flareon",
+            "Espeon": "Espeon",
+            "Umbreon": "Umbreon",
+            "Leafeon": "Leafeon",
+            "Glaceon": "Glaceon",
+            "Sylveon": "Sylveon"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Vaporeon": {
+        "name": "Vaporeon",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Jolteon": {
+        "name": "Jolteon",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Flareon": {
+        "name": "Flareon",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Porygon": {
+        "name": "Porygon",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Porygon2": "Porygon2"
+        },
+        "gender": "N"
+    },
+    "Omanyte": {
+        "name": "Omanyte",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "evos": {
+            "Omastar": "Omastar"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Omastar": {
+        "name": "Omastar",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "prevo": "Omanyte",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Kabuto": {
+        "name": "Kabuto",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "evos": {
+            "Kabutops": "Kabutops"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Kabutops": {
+        "name": "Kabutops",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "prevo": "Kabuto",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Aerodactyl": {
+        "name": "Aerodactyl",
+        "types": {
+            "Rock": "Rock",
+            "Flying": "Flying"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Snorlax": {
+        "name": "Snorlax",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Munchlax",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Dratini": {
+        "name": "Dratini",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Dragonair": "Dragonair"
+        }
+    },
+    "Dragonair": {
+        "name": "Dragonair",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Dragonite": "Dragonite"
+        },
+        "prevo": "Dratini"
+    },
+    "Dragonite": {
+        "name": "Dragonite",
+        "types": {
+            "Dragon": "Dragon",
+            "Flying": "Flying"
+        },
+        "prevo": "Dragonair"
+    },
+    "Chikorita": {
+        "name": "Chikorita",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Bayleef": "Bayleef"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Bayleef": {
+        "name": "Bayleef",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Meganium": "Meganium"
+        },
+        "prevo": "Chikorita",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Meganium": {
+        "name": "Meganium",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Bayleef",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Cyndaquil": {
+        "name": "Cyndaquil",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Quilava": "Quilava"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Quilava": {
+        "name": "Quilava",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Typhlosion": "Typhlosion",
+            "Typhlosion-Hisui": "Typhlosion-Hisui"
+        },
+        "prevo": "Cyndaquil",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Typhlosion": {
+        "name": "Typhlosion",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Quilava",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Typhlosion-Hisui": {
+        "name": "Typhlosion-Hisui",
+        "types": {
+            "Fire": "Fire",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Quilava",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Totodile": {
+        "name": "Totodile",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Croconaw": "Croconaw"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Croconaw": {
+        "name": "Croconaw",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Feraligatr": "Feraligatr"
+        },
+        "prevo": "Totodile",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Feraligatr": {
+        "name": "Feraligatr",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Croconaw",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Sentret": {
+        "name": "Sentret",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Furret": "Furret"
+        }
+    },
+    "Furret": {
+        "name": "Furret",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Sentret"
+    },
+    "Hoothoot": {
+        "name": "Hoothoot",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Noctowl": "Noctowl"
+        }
+    },
+    "Noctowl": {
+        "name": "Noctowl",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Hoothoot"
+    },
+    "Ledyba": {
+        "name": "Ledyba",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Ledian": "Ledian"
+        }
+    },
+    "Ledian": {
+        "name": "Ledian",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Ledyba"
+    },
+    "Spinarak": {
+        "name": "Spinarak",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Ariados": "Ariados"
+        }
+    },
+    "Ariados": {
+        "name": "Ariados",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "prevo": "Spinarak"
+    },
+    "Crobat": {
+        "name": "Crobat",
+        "types": {
+            "Poison": "Poison",
+            "Flying": "Flying"
+        },
+        "prevo": "Golbat"
+    },
+    "Chinchou": {
+        "name": "Chinchou",
+        "types": {
+            "Water": "Water",
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Lanturn": "Lanturn"
+        }
+    },
+    "Lanturn": {
+        "name": "Lanturn",
+        "types": {
+            "Water": "Water",
+            "Electric": "Electric"
+        },
+        "prevo": "Chinchou"
+    },
+    "Pichu": {
+        "name": "Pichu",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Pikachu": "Pikachu"
+        }
+    },
+    "Cleffa": {
+        "name": "Cleffa",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Clefairy": "Clefairy"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Igglybuff": {
+        "name": "Igglybuff",
+        "types": {
+            "Normal": "Normal",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Jigglypuff": "Jigglypuff"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Togepi": {
+        "name": "Togepi",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Togetic": "Togetic"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Togetic": {
+        "name": "Togetic",
+        "types": {
+            "Fairy": "Fairy",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Togekiss": "Togekiss"
+        },
+        "prevo": "Togepi",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Natu": {
+        "name": "Natu",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Xatu": "Xatu"
+        }
+    },
+    "Xatu": {
+        "name": "Xatu",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        },
+        "prevo": "Natu"
+    },
+    "Mareep": {
+        "name": "Mareep",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Flaaffy": "Flaaffy"
+        }
+    },
+    "Flaaffy": {
+        "name": "Flaaffy",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Ampharos": "Ampharos"
+        },
+        "prevo": "Mareep"
+    },
+    "Ampharos": {
+        "name": "Ampharos",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Flaaffy"
+    },
+    "Bellossom": {
+        "name": "Bellossom",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Gloom"
+    },
+    "Marill": {
+        "name": "Marill",
+        "types": {
+            "Water": "Water",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Azumarill": "Azumarill"
+        },
+        "prevo": "Azurill"
+    },
+    "Azumarill": {
+        "name": "Azumarill",
+        "types": {
+            "Water": "Water",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Marill"
+    },
+    "Sudowoodo": {
+        "name": "Sudowoodo",
+        "types": {
+            "Rock": "Rock"
+        },
+        "prevo": "Bonsly"
+    },
+    "Politoed": {
+        "name": "Politoed",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Poliwhirl"
+    },
+    "Hoppip": {
+        "name": "Hoppip",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Skiploom": "Skiploom"
+        }
+    },
+    "Skiploom": {
+        "name": "Skiploom",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Jumpluff": "Jumpluff"
+        },
+        "prevo": "Hoppip"
+    },
+    "Jumpluff": {
+        "name": "Jumpluff",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        },
+        "prevo": "Skiploom"
+    },
+    "Aipom": {
+        "name": "Aipom",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Ambipom": "Ambipom"
+        }
+    },
+    "Sunkern": {
+        "name": "Sunkern",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Sunflora": "Sunflora"
+        }
+    },
+    "Sunflora": {
+        "name": "Sunflora",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Sunkern"
+    },
+    "Yanma": {
+        "name": "Yanma",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Yanmega": "Yanmega"
+        }
+    },
+    "Wooper": {
+        "name": "Wooper",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Quagsire": "Quagsire"
+        }
+    },
+    "Paldean Wooper": {
+        "name": "Paldean Wooper",
+        "types": {
+            "Poison": "Poison",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Clodsire": "Clodsire"
+        }
+    },
+    "Quagsire": {
+        "name": "Quagsire",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "prevo": "Wooper"
+    },
+    "Espeon": {
+        "name": "Espeon",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Umbreon": {
+        "name": "Umbreon",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Murkrow": {
+        "name": "Murkrow",
+        "types": {
+            "Dark": "Dark",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Honchkrow": "Honchkrow"
+        }
+    },
+    "Slowking": {
+        "name": "Slowking",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Slowpoke"
+    },
+    "Galarian Slowking": {
+        "name": "Galarian Slowking",
+        "types": {
+            "Poison": "Poison",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Galarian Slowpoke"
+    },
+    "Misdreavus": {
+        "name": "Misdreavus",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Mismagius": "Mismagius"
+        }
+    },
+    "Unown": {
+        "name": "Unown",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "gender": "N"
+    },
+    "Wobbuffet": {
+        "name": "Wobbuffet",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Wynaut"
+    },
+    "Girafarig": {
+        "name": "Girafarig",
+        "types": {
+            "Normal": "Normal",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Farigiraf": "Farigiraf"
+        }
+    },
+    "Pineco": {
+        "name": "Pineco",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Forretress": "Forretress"
+        }
+    },
+    "Forretress": {
+        "name": "Forretress",
+        "types": {
+            "Bug": "Bug",
+            "Steel": "Steel"
+        },
+        "prevo": "Pineco"
+    },
+    "Dunsparce": {
+        "name": "Dunsparce",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Dudunsparce": "Dudunsparce"
+        }
+    },
+    "Gligar": {
+        "name": "Gligar",
+        "types": {
+            "Ground": "Ground",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Gliscor": "Gliscor"
+        }
+    },
+    "Steelix": {
+        "name": "Steelix",
+        "types": {
+            "Steel": "Steel",
+            "Ground": "Ground"
+        },
+        "prevo": "Onix"
+    },
+    "Snubbull": {
+        "name": "Snubbull",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Granbull": "Granbull"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Granbull": {
+        "name": "Granbull",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Snubbull",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Qwilfish": {
+        "name": "Qwilfish",
+        "types": {
+            "Water": "Water",
+            "Poison": "Poison"
+        }
+    },
+    "Qwilfish-Hisui": {
+        "name": "Qwilfish-Hisui",
+        "types": {
+            "Dark": "Dark",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Overqwil": "Overqwil"
+        }
+    },
+    "Scizor": {
+        "name": "Scizor",
+        "types": {
+            "Bug": "Bug",
+            "Steel": "Steel"
+        },
+        "prevo": "Scyther"
+    },
+    "Shuckle": {
+        "name": "Shuckle",
+        "types": {
+            "Bug": "Bug",
+            "Rock": "Rock"
+        }
+    },
+    "Heracross": {
+        "name": "Heracross",
+        "types": {
+            "Bug": "Bug",
+            "Fighting": "Fighting"
+        }
+    },
+    "Sneasel": {
+        "name": "Sneasel",
+        "types": {
+            "Dark": "Dark",
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Weavile": "Weavile"
+        }
+    },
+    "Sneasel-Hisui": {
+        "name": "Sneasel-Hisui",
+        "types": {
+            "Fighting": "Fighting",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Sneasler": "Sneasler"
+        }
+    },
+    "Teddiursa": {
+        "name": "Teddiursa",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Ursaring": "Ursaring"
+        }
+    },
+    "Ursaring": {
+        "name": "Ursaring",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Ursaluna": "Ursaluna"
+        },
+        "prevo": "Teddiursa"
+    },
+    "Slugma": {
+        "name": "Slugma",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Magcargo": "Magcargo"
+        }
+    },
+    "Magcargo": {
+        "name": "Magcargo",
+        "types": {
+            "Fire": "Fire",
+            "Rock": "Rock"
+        },
+        "prevo": "Slugma"
+    },
+    "Swinub": {
+        "name": "Swinub",
+        "types": {
+            "Ice": "Ice",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Piloswine": "Piloswine"
+        }
+    },
+    "Piloswine": {
+        "name": "Piloswine",
+        "types": {
+            "Ice": "Ice",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Mamoswine": "Mamoswine"
+        },
+        "prevo": "Swinub"
+    },
+    "Corsola": {
+        "name": "Corsola",
+        "types": {
+            "Water": "Water",
+            "Rock": "Rock"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Galarian Corsola": {
+        "name": "Galarian Corsola",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Cursola": "Cursola"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Remoraid": {
+        "name": "Remoraid",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Octillery": "Octillery"
+        }
+    },
+    "Octillery": {
+        "name": "Octillery",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Remoraid"
+    },
+    "Delibird": {
+        "name": "Delibird",
+        "types": {
+            "Ice": "Ice",
+            "Flying": "Flying"
+        }
+    },
+    "Mantine": {
+        "name": "Mantine",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "prevo": "Mantyke"
+    },
+    "Skarmory": {
+        "name": "Skarmory",
+        "types": {
+            "Steel": "Steel",
+            "Flying": "Flying"
+        }
+    },
+    "Houndour": {
+        "name": "Houndour",
+        "types": {
+            "Dark": "Dark",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Houndoom": "Houndoom"
+        }
+    },
+    "Houndoom": {
+        "name": "Houndoom",
+        "types": {
+            "Dark": "Dark",
+            "Fire": "Fire"
+        },
+        "prevo": "Houndour"
+    },
+    "Kingdra": {
+        "name": "Kingdra",
+        "types": {
+            "Water": "Water",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Seadra"
+    },
+    "Phanpy": {
+        "name": "Phanpy",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Donphan": "Donphan"
+        }
+    },
+    "Donphan": {
+        "name": "Donphan",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Phanpy"
+    },
+    "Porygon2": {
+        "name": "Porygon2",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Porygon-Z": "Porygon-Z"
+        },
+        "prevo": "Porygon",
+        "gender": "N"
+    },
+    "Stantler": {
+        "name": "Stantler",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Wyrdeer": "Wyrdeer"
+        }
+    },
+    "Smeargle": {
+        "name": "Smeargle",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Tyrogue": {
+        "name": "Tyrogue",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Hitmonlee": "Hitmonlee",
+            "Hitmonchan": "Hitmonchan",
+            "Hitmontop": "Hitmontop"
+        },
+        "gender": "M"
+    },
+    "Hitmontop": {
+        "name": "Hitmontop",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Tyrogue",
+        "gender": "M"
+    },
+    "Smoochum": {
+        "name": "Smoochum",
+        "types": {
+            "Ice": "Ice",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Jynx": "Jynx"
+        },
+        "gender": "F"
+    },
+    "Elekid": {
+        "name": "Elekid",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Electabuzz": "Electabuzz"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Magby": {
+        "name": "Magby",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Magmar": "Magmar"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Miltank": {
+        "name": "Miltank",
+        "types": {
+            "Normal": "Normal"
+        },
+        "gender": "F"
+    },
+    "Blissey": {
+        "name": "Blissey",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Chansey",
+        "gender": "F"
+    },
+    "Larvitar": {
+        "name": "Larvitar",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Pupitar": "Pupitar"
+        }
+    },
+    "Pupitar": {
+        "name": "Pupitar",
+        "types": {
+            "Rock": "Rock",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Tyranitar": "Tyranitar"
+        },
+        "prevo": "Larvitar"
+    },
+    "Tyranitar": {
+        "name": "Tyranitar",
+        "types": {
+            "Rock": "Rock",
+            "Dark": "Dark"
+        },
+        "prevo": "Pupitar"
+    },
+    "Treecko": {
+        "name": "Treecko",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Grovyle": "Grovyle"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Grovyle": {
+        "name": "Grovyle",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Sceptile": "Sceptile"
+        },
+        "prevo": "Treecko",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Sceptile": {
+        "name": "Sceptile",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Grovyle",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Torchic": {
+        "name": "Torchic",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Combusken": "Combusken"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Combusken": {
+        "name": "Combusken",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Blaziken": "Blaziken"
+        },
+        "prevo": "Torchic",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Blaziken": {
+        "name": "Blaziken",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Combusken",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Mudkip": {
+        "name": "Mudkip",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Marshtomp": "Marshtomp"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Marshtomp": {
+        "name": "Marshtomp",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Swampert": "Swampert"
+        },
+        "prevo": "Mudkip",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Swampert": {
+        "name": "Swampert",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "prevo": "Marshtomp",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Poochyena": {
+        "name": "Poochyena",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Mightyena": "Mightyena"
+        }
+    },
+    "Mightyena": {
+        "name": "Mightyena",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Poochyena"
+    },
+    "Zigzagoon": {
+        "name": "Zigzagoon",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Linoone": "Linoone"
+        }
+    },
+    "Galarian Zigzagoon": {
+        "name": "Galarian Zigzagoon",
+        "types": {
+            "Dark": "Dark",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Galarian Linoone": "Galarian Linoone"
+        }
+    },
+    "Linoone": {
+        "name": "Linoone",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Zigzagoon"
+    },
+    "Galarian Linoone": {
+        "name": "Galarian Linoone",
+        "types": {
+            "Dark": "Dark",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Obstagoon": "Obstagoon"
+        },
+        "prevo": "Galarian Zigzagoon"
+    },
+    "Wurmple": {
+        "name": "Wurmple",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Silcoon": "Silcoon",
+            "Cascoon": "Cascoon"
+        }
+    },
+    "Silcoon": {
+        "name": "Silcoon",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Beautifly": "Beautifly"
+        },
+        "prevo": "Wurmple"
+    },
+    "Beautifly": {
+        "name": "Beautifly",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Silcoon"
+    },
+    "Cascoon": {
+        "name": "Cascoon",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Dustox": "Dustox"
+        },
+        "prevo": "Wurmple"
+    },
+    "Dustox": {
+        "name": "Dustox",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "prevo": "Cascoon"
+    },
+    "Lotad": {
+        "name": "Lotad",
+        "types": {
+            "Water": "Water",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Lombre": "Lombre"
+        }
+    },
+    "Lombre": {
+        "name": "Lombre",
+        "types": {
+            "Water": "Water",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Ludicolo": "Ludicolo"
+        },
+        "prevo": "Lotad"
+    },
+    "Ludicolo": {
+        "name": "Ludicolo",
+        "types": {
+            "Water": "Water",
+            "Grass": "Grass"
+        },
+        "prevo": "Lombre"
+    },
+    "Seedot": {
+        "name": "Seedot",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Nuzleaf": "Nuzleaf"
+        }
+    },
+    "Nuzleaf": {
+        "name": "Nuzleaf",
+        "types": {
+            "Grass": "Grass",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Shiftry": "Shiftry"
+        },
+        "prevo": "Seedot"
+    },
+    "Shiftry": {
+        "name": "Shiftry",
+        "types": {
+            "Grass": "Grass",
+            "Dark": "Dark"
+        },
+        "prevo": "Nuzleaf"
+    },
+    "Taillow": {
+        "name": "Taillow",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Swellow": "Swellow"
+        }
+    },
+    "Swellow": {
+        "name": "Swellow",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Taillow"
+    },
+    "Wingull": {
+        "name": "Wingull",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Pelipper": "Pelipper"
+        }
+    },
+    "Pelipper": {
+        "name": "Pelipper",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "prevo": "Wingull"
+    },
+    "Ralts": {
+        "name": "Ralts",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Kirlia": "Kirlia"
+        }
+    },
+    "Kirlia": {
+        "name": "Kirlia",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Gardevoir": "Gardevoir",
+            "Gallade": "Gallade"
+        },
+        "prevo": "Ralts"
+    },
+    "Gardevoir": {
+        "name": "Gardevoir",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Kirlia"
+    },
+    "Surskit": {
+        "name": "Surskit",
+        "types": {
+            "Bug": "Bug",
+            "Water": "Water"
+        },
+        "evos": {
+            "Masquerain": "Masquerain"
+        }
+    },
+    "Masquerain": {
+        "name": "Masquerain",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Surskit"
+    },
+    "Shroomish": {
+        "name": "Shroomish",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Breloom": "Breloom"
+        }
+    },
+    "Breloom": {
+        "name": "Breloom",
+        "types": {
+            "Grass": "Grass",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Shroomish"
+    },
+    "Slakoth": {
+        "name": "Slakoth",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Vigoroth": "Vigoroth"
+        }
+    },
+    "Vigoroth": {
+        "name": "Vigoroth",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Slaking": "Slaking"
+        },
+        "prevo": "Slakoth"
+    },
+    "Slaking": {
+        "name": "Slaking",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Vigoroth"
+    },
+    "Nincada": {
+        "name": "Nincada",
+        "types": {
+            "Bug": "Bug",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Ninjask": "Ninjask",
+            "Shedinja": "Shedinja"
+        }
+    },
+    "Ninjask": {
+        "name": "Ninjask",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Nincada"
+    },
+    "Shedinja": {
+        "name": "Shedinja",
+        "types": {
+            "Bug": "Bug",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Nincada",
+        "gender": "N"
+    },
+    "Whismur": {
+        "name": "Whismur",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Loudred": "Loudred"
+        }
+    },
+    "Loudred": {
+        "name": "Loudred",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Exploud": "Exploud"
+        },
+        "prevo": "Whismur"
+    },
+    "Exploud": {
+        "name": "Exploud",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Loudred"
+    },
+    "Makuhita": {
+        "name": "Makuhita",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Hariyama": "Hariyama"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Hariyama": {
+        "name": "Hariyama",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Makuhita",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Azurill": {
+        "name": "Azurill",
+        "types": {
+            "Normal": "Normal",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Marill": "Marill"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Nosepass": {
+        "name": "Nosepass",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Probopass": "Probopass"
+        }
+    },
+    "Skitty": {
+        "name": "Skitty",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Delcatty": "Delcatty"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Delcatty": {
+        "name": "Delcatty",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Skitty",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Sableye": {
+        "name": "Sableye",
+        "types": {
+            "Dark": "Dark",
+            "Ghost": "Ghost"
+        }
+    },
+    "Mawile": {
+        "name": "Mawile",
+        "types": {
+            "Steel": "Steel",
+            "Fairy": "Fairy"
+        }
+    },
+    "Aron": {
+        "name": "Aron",
+        "types": {
+            "Steel": "Steel",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Lairon": "Lairon"
+        }
+    },
+    "Lairon": {
+        "name": "Lairon",
+        "types": {
+            "Steel": "Steel",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Aggron": "Aggron"
+        },
+        "prevo": "Aron"
+    },
+    "Aggron": {
+        "name": "Aggron",
+        "types": {
+            "Steel": "Steel",
+            "Rock": "Rock"
+        },
+        "prevo": "Lairon"
+    },
+    "Meditite": {
+        "name": "Meditite",
+        "types": {
+            "Fighting": "Fighting",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Medicham": "Medicham"
+        }
+    },
+    "Medicham": {
+        "name": "Medicham",
+        "types": {
+            "Fighting": "Fighting",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Meditite"
+    },
+    "Electrike": {
+        "name": "Electrike",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Manectric": "Manectric"
+        }
+    },
+    "Manectric": {
+        "name": "Manectric",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Electrike"
+    },
+    "Plusle": {
+        "name": "Plusle",
+        "types": {
+            "Electric": "Electric"
+        }
+    },
+    "Minun": {
+        "name": "Minun",
+        "types": {
+            "Electric": "Electric"
+        }
+    },
+    "Volbeat": {
+        "name": "Volbeat",
+        "types": {
+            "Bug": "Bug"
+        },
+        "gender": "M"
+    },
+    "Illumise": {
+        "name": "Illumise",
+        "types": {
+            "Bug": "Bug"
+        },
+        "gender": "F"
+    },
+    "Roselia": {
+        "name": "Roselia",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Roserade": "Roserade"
+        },
+        "prevo": "Budew"
+    },
+    "Gulpin": {
+        "name": "Gulpin",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Swalot": "Swalot"
+        }
+    },
+    "Swalot": {
+        "name": "Swalot",
+        "types": {
+            "Poison": "Poison"
+        },
+        "prevo": "Gulpin"
+    },
+    "Carvanha": {
+        "name": "Carvanha",
+        "types": {
+            "Water": "Water",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Sharpedo": "Sharpedo"
+        }
+    },
+    "Sharpedo": {
+        "name": "Sharpedo",
+        "types": {
+            "Water": "Water",
+            "Dark": "Dark"
+        },
+        "prevo": "Carvanha"
+    },
+    "Wailmer": {
+        "name": "Wailmer",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Wailord": "Wailord"
+        }
+    },
+    "Wailord": {
+        "name": "Wailord",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Wailmer"
+    },
+    "Numel": {
+        "name": "Numel",
+        "types": {
+            "Fire": "Fire",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Camerupt": "Camerupt"
+        }
+    },
+    "Camerupt": {
+        "name": "Camerupt",
+        "types": {
+            "Fire": "Fire",
+            "Ground": "Ground"
+        },
+        "prevo": "Numel"
+    },
+    "Torkoal": {
+        "name": "Torkoal",
+        "types": {
+            "Fire": "Fire"
+        }
+    },
+    "Spoink": {
+        "name": "Spoink",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Grumpig": "Grumpig"
+        }
+    },
+    "Grumpig": {
+        "name": "Grumpig",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Spoink"
+    },
+    "Spinda": {
+        "name": "Spinda",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Trapinch": {
+        "name": "Trapinch",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Vibrava": "Vibrava"
+        }
+    },
+    "Vibrava": {
+        "name": "Vibrava",
+        "types": {
+            "Ground": "Ground",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Flygon": "Flygon"
+        },
+        "prevo": "Trapinch"
+    },
+    "Flygon": {
+        "name": "Flygon",
+        "types": {
+            "Ground": "Ground",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Vibrava"
+    },
+    "Cacnea": {
+        "name": "Cacnea",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Cacturne": "Cacturne"
+        }
+    },
+    "Cacturne": {
+        "name": "Cacturne",
+        "types": {
+            "Grass": "Grass",
+            "Dark": "Dark"
+        },
+        "prevo": "Cacnea"
+    },
+    "Swablu": {
+        "name": "Swablu",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Altaria": "Altaria"
+        }
+    },
+    "Altaria": {
+        "name": "Altaria",
+        "types": {
+            "Dragon": "Dragon",
+            "Flying": "Flying"
+        },
+        "prevo": "Swablu"
+    },
+    "Zangoose": {
+        "name": "Zangoose",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Seviper": {
+        "name": "Seviper",
+        "types": {
+            "Poison": "Poison"
+        }
+    },
+    "Lunatone": {
+        "name": "Lunatone",
+        "types": {
+            "Rock": "Rock",
+            "Psychic": "Psychic"
+        },
+        "gender": "N"
+    },
+    "Solrock": {
+        "name": "Solrock",
+        "types": {
+            "Rock": "Rock",
+            "Psychic": "Psychic"
+        },
+        "gender": "N"
+    },
+    "Barboach": {
+        "name": "Barboach",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Whiscash": "Whiscash"
+        }
+    },
+    "Whiscash": {
+        "name": "Whiscash",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "prevo": "Barboach"
+    },
+    "Corphish": {
+        "name": "Corphish",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Crawdaunt": "Crawdaunt"
+        }
+    },
+    "Crawdaunt": {
+        "name": "Crawdaunt",
+        "types": {
+            "Water": "Water",
+            "Dark": "Dark"
+        },
+        "prevo": "Corphish"
+    },
+    "Baltoy": {
+        "name": "Baltoy",
+        "types": {
+            "Ground": "Ground",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Claydol": "Claydol"
+        },
+        "gender": "N"
+    },
+    "Claydol": {
+        "name": "Claydol",
+        "types": {
+            "Ground": "Ground",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Baltoy",
+        "gender": "N"
+    },
+    "Lileep": {
+        "name": "Lileep",
+        "types": {
+            "Rock": "Rock",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Cradily": "Cradily"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Cradily": {
+        "name": "Cradily",
+        "types": {
+            "Rock": "Rock",
+            "Grass": "Grass"
+        },
+        "prevo": "Lileep",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Anorith": {
+        "name": "Anorith",
+        "types": {
+            "Rock": "Rock",
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Armaldo": "Armaldo"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Armaldo": {
+        "name": "Armaldo",
+        "types": {
+            "Rock": "Rock",
+            "Bug": "Bug"
+        },
+        "prevo": "Anorith",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Feebas": {
+        "name": "Feebas",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Milotic": "Milotic"
+        }
+    },
+    "Milotic": {
+        "name": "Milotic",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Feebas"
+    },
+    "Castform": {
+        "name": "Castform",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Sunny Castform": {
+        "name": "Sunny Castform",
+        "types": {
+            "Fire": "Fire"
+        }
+    },
+    "Rainy Castform": {
+        "name": "Rainy Castform",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Snowy Castform": {
+        "name": "Snowy Castform",
+        "types": {
+            "Ice": "Ice"
+        }
+    },
+    "Kecleon": {
+        "name": "Kecleon",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Shuppet": {
+        "name": "Shuppet",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Banette": "Banette"
+        }
+    },
+    "Banette": {
+        "name": "Banette",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Shuppet"
+    },
+    "Duskull": {
+        "name": "Duskull",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Dusclops": "Dusclops"
+        }
+    },
+    "Dusclops": {
+        "name": "Dusclops",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Dusknoir": "Dusknoir"
+        },
+        "prevo": "Duskull"
+    },
+    "Tropius": {
+        "name": "Tropius",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        }
+    },
+    "Chimecho": {
+        "name": "Chimecho",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Chingling"
+    },
+    "Absol": {
+        "name": "Absol",
+        "types": {
+            "Dark": "Dark"
+        }
+    },
+    "Wynaut": {
+        "name": "Wynaut",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Wobbuffet": "Wobbuffet"
+        }
+    },
+    "Snorunt": {
+        "name": "Snorunt",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Glalie": "Glalie",
+            "Froslass": "Froslass"
+        }
+    },
+    "Glalie": {
+        "name": "Glalie",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Snorunt"
+    },
+    "Spheal": {
+        "name": "Spheal",
+        "types": {
+            "Ice": "Ice",
+            "Water": "Water"
+        },
+        "evos": {
+            "Sealeo": "Sealeo"
+        }
+    },
+    "Sealeo": {
+        "name": "Sealeo",
+        "types": {
+            "Ice": "Ice",
+            "Water": "Water"
+        },
+        "evos": {
+            "Walrein": "Walrein"
+        },
+        "prevo": "Spheal"
+    },
+    "Walrein": {
+        "name": "Walrein",
+        "types": {
+            "Ice": "Ice",
+            "Water": "Water"
+        },
+        "prevo": "Sealeo"
+    },
+    "Clamperl": {
+        "name": "Clamperl",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Huntail": "Huntail",
+            "Gorebyss": "Gorebyss"
+        }
+    },
+    "Huntail": {
+        "name": "Huntail",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Clamperl"
+    },
+    "Gorebyss": {
+        "name": "Gorebyss",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Clamperl"
+    },
+    "Relicanth": {
+        "name": "Relicanth",
+        "types": {
+            "Water": "Water",
+            "Rock": "Rock"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Luvdisc": {
+        "name": "Luvdisc",
+        "types": {
+            "Water": "Water"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Bagon": {
+        "name": "Bagon",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Shelgon": "Shelgon"
+        }
+    },
+    "Shelgon": {
+        "name": "Shelgon",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Salamence": "Salamence"
+        },
+        "prevo": "Bagon"
+    },
+    "Salamence": {
+        "name": "Salamence",
+        "types": {
+            "Dragon": "Dragon",
+            "Flying": "Flying"
+        },
+        "prevo": "Shelgon"
+    },
+    "Beldum": {
+        "name": "Beldum",
+        "types": {
+            "Steel": "Steel",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Metang": "Metang"
+        },
+        "gender": "N"
+    },
+    "Metang": {
+        "name": "Metang",
+        "types": {
+            "Steel": "Steel",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Metagross": "Metagross"
+        },
+        "prevo": "Beldum",
+        "gender": "N"
+    },
+    "Metagross": {
+        "name": "Metagross",
+        "types": {
+            "Steel": "Steel",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Metang",
+        "gender": "N"
+    },
+    "Turtwig": {
+        "name": "Turtwig",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Grotle": "Grotle"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Grotle": {
+        "name": "Grotle",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Torterra": "Torterra"
+        },
+        "prevo": "Turtwig",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Torterra": {
+        "name": "Torterra",
+        "types": {
+            "Grass": "Grass",
+            "Ground": "Ground"
+        },
+        "prevo": "Grotle",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Chimchar": {
+        "name": "Chimchar",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Monferno": "Monferno"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Monferno": {
+        "name": "Monferno",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Infernape": "Infernape"
+        },
+        "prevo": "Chimchar",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Infernape": {
+        "name": "Infernape",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Monferno",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Piplup": {
+        "name": "Piplup",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Prinplup": "Prinplup"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Prinplup": {
+        "name": "Prinplup",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Empoleon": "Empoleon"
+        },
+        "prevo": "Piplup",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Empoleon": {
+        "name": "Empoleon",
+        "types": {
+            "Water": "Water",
+            "Steel": "Steel"
+        },
+        "prevo": "Prinplup",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Starly": {
+        "name": "Starly",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Staravia": "Staravia"
+        }
+    },
+    "Staravia": {
+        "name": "Staravia",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Staraptor": "Staraptor"
+        },
+        "prevo": "Starly"
+    },
+    "Staraptor": {
+        "name": "Staraptor",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Staravia"
+    },
+    "Bidoof": {
+        "name": "Bidoof",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Bibarel": "Bibarel"
+        }
+    },
+    "Bibarel": {
+        "name": "Bibarel",
+        "types": {
+            "Normal": "Normal",
+            "Water": "Water"
+        },
+        "prevo": "Bidoof"
+    },
+    "Kricketot": {
+        "name": "Kricketot",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Kricketune": "Kricketune"
+        }
+    },
+    "Kricketune": {
+        "name": "Kricketune",
+        "types": {
+            "Bug": "Bug"
+        },
+        "prevo": "Kricketot"
+    },
+    "Shinx": {
+        "name": "Shinx",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Luxio": "Luxio"
+        }
+    },
+    "Luxio": {
+        "name": "Luxio",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Luxray": "Luxray"
+        },
+        "prevo": "Shinx"
+    },
+    "Luxray": {
+        "name": "Luxray",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Luxio"
+    },
+    "Budew": {
+        "name": "Budew",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Roselia": "Roselia"
+        }
+    },
+    "Roserade": {
+        "name": "Roserade",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "prevo": "Roselia"
+    },
+    "Cranidos": {
+        "name": "Cranidos",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Rampardos": "Rampardos"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Rampardos": {
+        "name": "Rampardos",
+        "types": {
+            "Rock": "Rock"
+        },
+        "prevo": "Cranidos",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Shieldon": {
+        "name": "Shieldon",
+        "types": {
+            "Rock": "Rock",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Bastiodon": "Bastiodon"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Bastiodon": {
+        "name": "Bastiodon",
+        "types": {
+            "Rock": "Rock",
+            "Steel": "Steel"
+        },
+        "prevo": "Shieldon",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Burmy": {
+        "name": "Burmy",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Wormadam Plant Cloak": "Wormadam Plant Cloak",
+            "Wormadam Sandy Cloak": "Wormadam Sandy Cloak",
+            "Wormadam Trash Cloak": "Wormadam Trash Cloak",
+            "Mothim": "Mothim"
+        }
+    },
+    "Wormadam Plant Cloak": {
+        "name": "Wormadam Plant Cloak",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "prevo": "Burmy",
+        "gender": "F"
+    },
+    "Wormadam Sandy Cloak": {
+        "name": "Wormadam Sandy Cloak",
+        "types": {
+            "Bug": "Bug",
+            "Ground": "Ground"
+        },
+        "prevo": "Burmy",
+        "gender": "F"
+    },
+    "Wormadam Trash Cloak": {
+        "name": "Wormadam Trash Cloak",
+        "types": {
+            "Bug": "Bug",
+            "Steel": "Steel"
+        },
+        "prevo": "Burmy",
+        "gender": "F"
+    },
+    "Mothim": {
+        "name": "Mothim",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Burmy",
+        "gender": "M"
+    },
+    "Combee": {
+        "name": "Combee",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Vespiquen": "Vespiquen"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Vespiquen": {
+        "name": "Vespiquen",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Combee",
+        "gender": "F"
+    },
+    "Pachirisu": {
+        "name": "Pachirisu",
+        "types": {
+            "Electric": "Electric"
+        }
+    },
+    "Buizel": {
+        "name": "Buizel",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Floatzel": "Floatzel"
+        }
+    },
+    "Floatzel": {
+        "name": "Floatzel",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Buizel"
+    },
+    "Cherubi": {
+        "name": "Cherubi",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Cherrim": "Cherrim"
+        }
+    },
+    "Cherrim": {
+        "name": "Cherrim",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Cherubi"
+    },
+    "Shellos": {
+        "name": "Shellos",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Gastrodon": "Gastrodon"
+        }
+    },
+    "Gastrodon": {
+        "name": "Gastrodon",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "prevo": "Shellos"
+    },
+    "Ambipom": {
+        "name": "Ambipom",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Aipom"
+    },
+    "Drifloon": {
+        "name": "Drifloon",
+        "types": {
+            "Ghost": "Ghost",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Drifblim": "Drifblim"
+        }
+    },
+    "Drifblim": {
+        "name": "Drifblim",
+        "types": {
+            "Ghost": "Ghost",
+            "Flying": "Flying"
+        },
+        "prevo": "Drifloon"
+    },
+    "Buneary": {
+        "name": "Buneary",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Lopunny": "Lopunny"
+        }
+    },
+    "Lopunny": {
+        "name": "Lopunny",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Buneary"
+    },
+    "Mismagius": {
+        "name": "Mismagius",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Misdreavus"
+    },
+    "Honchkrow": {
+        "name": "Honchkrow",
+        "types": {
+            "Dark": "Dark",
+            "Flying": "Flying"
+        },
+        "prevo": "Murkrow"
+    },
+    "Glameow": {
+        "name": "Glameow",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Purugly": "Purugly"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Purugly": {
+        "name": "Purugly",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Glameow",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Chingling": {
+        "name": "Chingling",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Chimecho": "Chimecho"
+        }
+    },
+    "Stunky": {
+        "name": "Stunky",
+        "types": {
+            "Poison": "Poison",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Skuntank": "Skuntank"
+        }
+    },
+    "Skuntank": {
+        "name": "Skuntank",
+        "types": {
+            "Poison": "Poison",
+            "Dark": "Dark"
+        },
+        "prevo": "Stunky"
+    },
+    "Bronzor": {
+        "name": "Bronzor",
+        "types": {
+            "Steel": "Steel",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Bronzong": "Bronzong"
+        },
+        "gender": "N"
+    },
+    "Bronzong": {
+        "name": "Bronzong",
+        "types": {
+            "Steel": "Steel",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Bronzor",
+        "gender": "N"
+    },
+    "Bonsly": {
+        "name": "Bonsly",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Sudowoodo": "Sudowoodo"
+        }
+    },
+    "Mime Jr.": {
+        "name": "Mime Jr.",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Mr. Mime": "Mr. Mime",
+            "Galarian Mr. Mime": "Galarian Mr. Mime"
+        }
+    },
+    "Happiny": {
+        "name": "Happiny",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Chansey": "Chansey"
+        },
+        "gender": "F"
+    },
+    "Chatot": {
+        "name": "Chatot",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Spiritomb": {
+        "name": "Spiritomb",
+        "types": {
+            "Ghost": "Ghost",
+            "Dark": "Dark"
+        }
+    },
+    "Gible": {
+        "name": "Gible",
+        "types": {
+            "Dragon": "Dragon",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Gabite": "Gabite"
+        }
+    },
+    "Gabite": {
+        "name": "Gabite",
+        "types": {
+            "Dragon": "Dragon",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Garchomp": "Garchomp"
+        },
+        "prevo": "Gible"
+    },
+    "Garchomp": {
+        "name": "Garchomp",
+        "types": {
+            "Dragon": "Dragon",
+            "Ground": "Ground"
+        },
+        "prevo": "Gabite"
+    },
+    "Munchlax": {
+        "name": "Munchlax",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Snorlax": "Snorlax"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Riolu": {
+        "name": "Riolu",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Lucario": "Lucario"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Lucario": {
+        "name": "Lucario",
+        "types": {
+            "Fighting": "Fighting",
+            "Steel": "Steel"
+        },
+        "prevo": "Riolu",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Hippopotas": {
+        "name": "Hippopotas",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Hippowdon": "Hippowdon"
+        }
+    },
+    "Hippowdon": {
+        "name": "Hippowdon",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Hippopotas"
+    },
+    "Skorupi": {
+        "name": "Skorupi",
+        "types": {
+            "Poison": "Poison",
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Drapion": "Drapion"
+        }
+    },
+    "Drapion": {
+        "name": "Drapion",
+        "types": {
+            "Poison": "Poison",
+            "Dark": "Dark"
+        },
+        "prevo": "Skorupi"
+    },
+    "Croagunk": {
+        "name": "Croagunk",
+        "types": {
+            "Poison": "Poison",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Toxicroak": "Toxicroak"
+        }
+    },
+    "Toxicroak": {
+        "name": "Toxicroak",
+        "types": {
+            "Poison": "Poison",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Croagunk"
+    },
+    "Carnivine": {
+        "name": "Carnivine",
+        "types": {
+            "Grass": "Grass"
+        }
+    },
+    "Finneon": {
+        "name": "Finneon",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Lumineon": "Lumineon"
+        }
+    },
+    "Lumineon": {
+        "name": "Lumineon",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Finneon"
+    },
+    "Mantyke": {
+        "name": "Mantyke",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Mantine": "Mantine"
+        }
+    },
+    "Snover": {
+        "name": "Snover",
+        "types": {
+            "Grass": "Grass",
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Abomasnow": "Abomasnow"
+        }
+    },
+    "Abomasnow": {
+        "name": "Abomasnow",
+        "types": {
+            "Grass": "Grass",
+            "Ice": "Ice"
+        },
+        "prevo": "Snover"
+    },
+    "Weavile": {
+        "name": "Weavile",
+        "types": {
+            "Dark": "Dark",
+            "Ice": "Ice"
+        },
+        "prevo": "Sneasel"
+    },
+    "Magnezone": {
+        "name": "Magnezone",
+        "types": {
+            "Electric": "Electric",
+            "Steel": "Steel"
+        },
+        "prevo": "Magneton",
+        "gender": "N"
+    },
+    "Lickilicky": {
+        "name": "Lickilicky",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Lickitung"
+    },
+    "Rhyperior": {
+        "name": "Rhyperior",
+        "types": {
+            "Ground": "Ground",
+            "Rock": "Rock"
+        },
+        "prevo": "Rhydon"
+    },
+    "Tangrowth": {
+        "name": "Tangrowth",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Tangela"
+    },
+    "Electivire": {
+        "name": "Electivire",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Electabuzz",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Magmortar": {
+        "name": "Magmortar",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Magmar",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Togekiss": {
+        "name": "Togekiss",
+        "types": {
+            "Fairy": "Fairy",
+            "Flying": "Flying"
+        },
+        "prevo": "Togetic",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Yanmega": {
+        "name": "Yanmega",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        },
+        "prevo": "Yanma"
+    },
+    "Leafeon": {
+        "name": "Leafeon",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Glaceon": {
+        "name": "Glaceon",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Gliscor": {
+        "name": "Gliscor",
+        "types": {
+            "Ground": "Ground",
+            "Flying": "Flying"
+        },
+        "prevo": "Gligar"
+    },
+    "Mamoswine": {
+        "name": "Mamoswine",
+        "types": {
+            "Ice": "Ice",
+            "Ground": "Ground"
+        },
+        "prevo": "Piloswine"
+    },
+    "Porygon-Z": {
+        "name": "Porygon-Z",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Porygon2",
+        "gender": "N"
+    },
+    "Gallade": {
+        "name": "Gallade",
+        "types": {
+            "Psychic": "Psychic",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Kirlia",
+        "gender": "M"
+    },
+    "Probopass": {
+        "name": "Probopass",
+        "types": {
+            "Rock": "Rock",
+            "Steel": "Steel"
+        },
+        "prevo": "Nosepass"
+    },
+    "Dusknoir": {
+        "name": "Dusknoir",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Dusclops"
+    },
+    "Froslass": {
+        "name": "Froslass",
+        "types": {
+            "Ice": "Ice",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Snorunt",
+        "gender": "F"
+    },
+    "Rotom": {
+        "name": "Rotom",
+        "types": {
+            "Electric": "Electric",
+            "Ghost": "Ghost"
+        },
+        "gender": "N"
+    },
+    "Snivy": {
+        "name": "Snivy",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Servine": "Servine"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Servine": {
+        "name": "Servine",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Serperior": "Serperior"
+        },
+        "prevo": "Snivy",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Serperior": {
+        "name": "Serperior",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Servine",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Tepig": {
+        "name": "Tepig",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Pignite": "Pignite"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Pignite": {
+        "name": "Pignite",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Emboar": "Emboar"
+        },
+        "prevo": "Tepig",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Emboar": {
+        "name": "Emboar",
+        "types": {
+            "Fire": "Fire",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Pignite",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Oshawott": {
+        "name": "Oshawott",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Dewott": "Dewott"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Dewott": {
+        "name": "Dewott",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Samurott": "Samurott",
+            "Samurott-Hisui": "Samurott-Hisui"
+        },
+        "prevo": "Oshawott",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Samurott": {
+        "name": "Samurott",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Dewott",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Samurott-Hisui": {
+        "name": "Samurott-Hisui",
+        "types": {
+            "Water": "Water",
+            "Dark": "Dark"
+        },
+        "prevo": "Dewott",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Patrat": {
+        "name": "Patrat",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Watchog": "Watchog"
+        }
+    },
+    "Watchog": {
+        "name": "Watchog",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Patrat"
+    },
+    "Lillipup": {
+        "name": "Lillipup",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Herdier": "Herdier"
+        }
+    },
+    "Herdier": {
+        "name": "Herdier",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Stoutland": "Stoutland"
+        },
+        "prevo": "Lillipup"
+    },
+    "Stoutland": {
+        "name": "Stoutland",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Herdier"
+    },
+    "Purrloin": {
+        "name": "Purrloin",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Liepard": "Liepard"
+        }
+    },
+    "Liepard": {
+        "name": "Liepard",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Purrloin"
+    },
+    "Pansage": {
+        "name": "Pansage",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Simisage": "Simisage"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Simisage": {
+        "name": "Simisage",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Pansage",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Pansear": {
+        "name": "Pansear",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Simisear": "Simisear"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Simisear": {
+        "name": "Simisear",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Pansear",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Panpour": {
+        "name": "Panpour",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Simipour": "Simipour"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Simipour": {
+        "name": "Simipour",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Panpour",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Munna": {
+        "name": "Munna",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Musharna": "Musharna"
+        }
+    },
+    "Musharna": {
+        "name": "Musharna",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Munna"
+    },
+    "Pidove": {
+        "name": "Pidove",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Tranquill": "Tranquill"
+        }
+    },
+    "Tranquill": {
+        "name": "Tranquill",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Unfezant": "Unfezant"
+        },
+        "prevo": "Pidove"
+    },
+    "Unfezant": {
+        "name": "Unfezant",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Tranquill"
+    },
+    "Blitzle": {
+        "name": "Blitzle",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Zebstrika": "Zebstrika"
+        }
+    },
+    "Zebstrika": {
+        "name": "Zebstrika",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Blitzle"
+    },
+    "Roggenrola": {
+        "name": "Roggenrola",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Boldore": "Boldore"
+        }
+    },
+    "Boldore": {
+        "name": "Boldore",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Gigalith": "Gigalith"
+        },
+        "prevo": "Roggenrola"
+    },
+    "Gigalith": {
+        "name": "Gigalith",
+        "types": {
+            "Rock": "Rock"
+        },
+        "prevo": "Boldore"
+    },
+    "Woobat": {
+        "name": "Woobat",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Swoobat": "Swoobat"
+        }
+    },
+    "Swoobat": {
+        "name": "Swoobat",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        },
+        "prevo": "Woobat"
+    },
+    "Drilbur": {
+        "name": "Drilbur",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Excadrill": "Excadrill"
+        }
+    },
+    "Excadrill": {
+        "name": "Excadrill",
+        "types": {
+            "Ground": "Ground",
+            "Steel": "Steel"
+        },
+        "prevo": "Drilbur"
+    },
+    "Audino": {
+        "name": "Audino",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Timburr": {
+        "name": "Timburr",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Gurdurr": "Gurdurr"
+        },
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Gurdurr": {
+        "name": "Gurdurr",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Conkeldurr": "Conkeldurr"
+        },
+        "prevo": "Timburr",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Conkeldurr": {
+        "name": "Conkeldurr",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Gurdurr",
+        "genderRatio": {
+            "M": 0.75,
+            "F": 0.25
+        }
+    },
+    "Tympole": {
+        "name": "Tympole",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Palpitoad": "Palpitoad"
+        }
+    },
+    "Palpitoad": {
+        "name": "Palpitoad",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Seismitoad": "Seismitoad"
+        },
+        "prevo": "Tympole"
+    },
+    "Seismitoad": {
+        "name": "Seismitoad",
+        "types": {
+            "Water": "Water",
+            "Ground": "Ground"
+        },
+        "prevo": "Palpitoad"
+    },
+    "Throh": {
+        "name": "Throh",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "gender": "M"
+    },
+    "Sawk": {
+        "name": "Sawk",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "gender": "M"
+    },
+    "Sewaddle": {
+        "name": "Sewaddle",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Swadloon": "Swadloon"
+        }
+    },
+    "Swadloon": {
+        "name": "Swadloon",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Leavanny": "Leavanny"
+        },
+        "prevo": "Sewaddle"
+    },
+    "Leavanny": {
+        "name": "Leavanny",
+        "types": {
+            "Bug": "Bug",
+            "Grass": "Grass"
+        },
+        "prevo": "Swadloon"
+    },
+    "Venipede": {
+        "name": "Venipede",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Whirlipede": "Whirlipede"
+        }
+    },
+    "Whirlipede": {
+        "name": "Whirlipede",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Scolipede": "Scolipede"
+        },
+        "prevo": "Venipede"
+    },
+    "Scolipede": {
+        "name": "Scolipede",
+        "types": {
+            "Bug": "Bug",
+            "Poison": "Poison"
+        },
+        "prevo": "Whirlipede"
+    },
+    "Cottonee": {
+        "name": "Cottonee",
+        "types": {
+            "Grass": "Grass",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Whimsicott": "Whimsicott"
+        }
+    },
+    "Whimsicott": {
+        "name": "Whimsicott",
+        "types": {
+            "Grass": "Grass",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Cottonee"
+    },
+    "Petilil": {
+        "name": "Petilil",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Lilligant": "Lilligant",
+            "Lilligant-Hisui": "Lilligant-Hisui"
+        },
+        "gender": "F"
+    },
+    "Lilligant": {
+        "name": "Lilligant",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Petilil",
+        "gender": "F"
+    },
+    "Lilligant-Hisui": {
+        "name": "Lilligant-Hisui",
+        "types": {
+            "Grass": "Grass",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Petilil",
+        "gender": "F"
+    },
+    "Basculin": {
+        "name": "Basculin",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Basculin-Blue-Striped": {
+        "name": "Basculin-Blue-Striped",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Basculin-White-Striped": {
+        "name": "Basculin-White-Striped",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Basculegion": "Basculegion",
+            "Basculegion ♀": "Basculegion ♀"
+        }
+    },
+    "Sandile": {
+        "name": "Sandile",
+        "types": {
+            "Ground": "Ground",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Krokorok": "Krokorok"
+        }
+    },
+    "Krokorok": {
+        "name": "Krokorok",
+        "types": {
+            "Ground": "Ground",
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Krookodile": "Krookodile"
+        },
+        "prevo": "Sandile"
+    },
+    "Krookodile": {
+        "name": "Krookodile",
+        "types": {
+            "Ground": "Ground",
+            "Dark": "Dark"
+        },
+        "prevo": "Krokorok"
+    },
+    "Darumaka": {
+        "name": "Darumaka",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Darmanitan": "Darmanitan"
+        }
+    },
+    "Galarian Darumaka": {
+        "name": "Galarian Darumaka",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Galarian Darmanitan": "Galarian Darmanitan"
+        }
+    },
+    "Darmanitan": {
+        "name": "Darmanitan",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Darumaka"
+    },
+    "Galarian Darmanitan": {
+        "name": "Galarian Darmanitan",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Galarian Darumaka"
+    },
+    "Maractus": {
+        "name": "Maractus",
+        "types": {
+            "Grass": "Grass"
+        }
+    },
+    "Dwebble": {
+        "name": "Dwebble",
+        "types": {
+            "Bug": "Bug",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Crustle": "Crustle"
+        }
+    },
+    "Crustle": {
+        "name": "Crustle",
+        "types": {
+            "Bug": "Bug",
+            "Rock": "Rock"
+        },
+        "prevo": "Dwebble"
+    },
+    "Scraggy": {
+        "name": "Scraggy",
+        "types": {
+            "Dark": "Dark",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Scrafty": "Scrafty"
+        }
+    },
+    "Scrafty": {
+        "name": "Scrafty",
+        "types": {
+            "Dark": "Dark",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Scraggy"
+    },
+    "Sigilyph": {
+        "name": "Sigilyph",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        }
+    },
+    "Yamask": {
+        "name": "Yamask",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Cofagrigus": "Cofagrigus"
+        }
+    },
+    "Galarian Yamask": {
+        "name": "Galarian Yamask",
+        "types": {
+            "Ground": "Ground",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Runerigus": "Runerigus"
+        }
+    },
+    "Cofagrigus": {
+        "name": "Cofagrigus",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Yamask"
+    },
+    "Tirtouga": {
+        "name": "Tirtouga",
+        "types": {
+            "Water": "Water",
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Carracosta": "Carracosta"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Carracosta": {
+        "name": "Carracosta",
+        "types": {
+            "Water": "Water",
+            "Rock": "Rock"
+        },
+        "prevo": "Tirtouga",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Archen": {
+        "name": "Archen",
+        "types": {
+            "Rock": "Rock",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Archeops": "Archeops"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Archeops": {
+        "name": "Archeops",
+        "types": {
+            "Rock": "Rock",
+            "Flying": "Flying"
+        },
+        "prevo": "Archen",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Trubbish": {
+        "name": "Trubbish",
+        "types": {
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Garbodor": "Garbodor"
+        }
+    },
+    "Garbodor": {
+        "name": "Garbodor",
+        "types": {
+            "Poison": "Poison"
+        },
+        "prevo": "Trubbish"
+    },
+    "Zorua": {
+        "name": "Zorua",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Zoroark": "Zoroark"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Zorua-Hisui": {
+        "name": "Zorua-Hisui",
+        "types": {
+            "Normal": "Normal",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Zoroark-Hisui": "Zoroark-Hisui"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Zoroark": {
+        "name": "Zoroark",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Zorua",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Zoroark-Hisui": {
+        "name": "Zoroark-Hisui",
+        "types": {
+            "Normal": "Normal",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Zorua-Hisui",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Minccino": {
+        "name": "Minccino",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Cinccino": "Cinccino"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Cinccino": {
+        "name": "Cinccino",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Minccino",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Gothita": {
+        "name": "Gothita",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Gothorita": "Gothorita"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Gothorita": {
+        "name": "Gothorita",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Gothitelle": "Gothitelle"
+        },
+        "prevo": "Gothita",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Gothitelle": {
+        "name": "Gothitelle",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Gothorita",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Solosis": {
+        "name": "Solosis",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Duosion": "Duosion"
+        }
+    },
+    "Duosion": {
+        "name": "Duosion",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Reuniclus": "Reuniclus"
+        },
+        "prevo": "Solosis"
+    },
+    "Reuniclus": {
+        "name": "Reuniclus",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Duosion"
+    },
+    "Ducklett": {
+        "name": "Ducklett",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Swanna": "Swanna"
+        }
+    },
+    "Swanna": {
+        "name": "Swanna",
+        "types": {
+            "Water": "Water",
+            "Flying": "Flying"
+        },
+        "prevo": "Ducklett"
+    },
+    "Vanillite": {
+        "name": "Vanillite",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Vanillish": "Vanillish"
+        }
+    },
+    "Vanillish": {
+        "name": "Vanillish",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Vanilluxe": "Vanilluxe"
+        },
+        "prevo": "Vanillite"
+    },
+    "Vanilluxe": {
+        "name": "Vanilluxe",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Vanillish"
+    },
+    "Deerling": {
+        "name": "Deerling",
+        "types": {
+            "Normal": "Normal",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Sawsbuck": "Sawsbuck"
+        }
+    },
+    "Sawsbuck": {
+        "name": "Sawsbuck",
+        "types": {
+            "Normal": "Normal",
+            "Grass": "Grass"
+        },
+        "prevo": "Deerling"
+    },
+    "Emolga": {
+        "name": "Emolga",
+        "types": {
+            "Electric": "Electric",
+            "Flying": "Flying"
+        }
+    },
+    "Karrablast": {
+        "name": "Karrablast",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Escavalier": "Escavalier"
+        }
+    },
+    "Escavalier": {
+        "name": "Escavalier",
+        "types": {
+            "Bug": "Bug",
+            "Steel": "Steel"
+        },
+        "prevo": "Karrablast"
+    },
+    "Foongus": {
+        "name": "Foongus",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Amoonguss": "Amoonguss"
+        }
+    },
+    "Amoonguss": {
+        "name": "Amoonguss",
+        "types": {
+            "Grass": "Grass",
+            "Poison": "Poison"
+        },
+        "prevo": "Foongus"
+    },
+    "Frillish": {
+        "name": "Frillish",
+        "types": {
+            "Water": "Water",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Jellicent": "Jellicent"
+        }
+    },
+    "Jellicent": {
+        "name": "Jellicent",
+        "types": {
+            "Water": "Water",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Frillish"
+    },
+    "Alomomola": {
+        "name": "Alomomola",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Joltik": {
+        "name": "Joltik",
+        "types": {
+            "Bug": "Bug",
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Galvantula": "Galvantula"
+        }
+    },
+    "Galvantula": {
+        "name": "Galvantula",
+        "types": {
+            "Bug": "Bug",
+            "Electric": "Electric"
+        },
+        "prevo": "Joltik"
+    },
+    "Ferroseed": {
+        "name": "Ferroseed",
+        "types": {
+            "Grass": "Grass",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Ferrothorn": "Ferrothorn"
+        }
+    },
+    "Ferrothorn": {
+        "name": "Ferrothorn",
+        "types": {
+            "Grass": "Grass",
+            "Steel": "Steel"
+        },
+        "prevo": "Ferroseed"
+    },
+    "Klink": {
+        "name": "Klink",
+        "types": {
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Klang": "Klang"
+        },
+        "gender": "N"
+    },
+    "Klang": {
+        "name": "Klang",
+        "types": {
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Klinklang": "Klinklang"
+        },
+        "prevo": "Klink",
+        "gender": "N"
+    },
+    "Klinklang": {
+        "name": "Klinklang",
+        "types": {
+            "Steel": "Steel"
+        },
+        "prevo": "Klang",
+        "gender": "N"
+    },
+    "Tynamo": {
+        "name": "Tynamo",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Eelektrik": "Eelektrik"
+        }
+    },
+    "Eelektrik": {
+        "name": "Eelektrik",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Eelektross": "Eelektross"
+        },
+        "prevo": "Tynamo"
+    },
+    "Eelektross": {
+        "name": "Eelektross",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Eelektrik"
+    },
+    "Elgyem": {
+        "name": "Elgyem",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Beheeyem": "Beheeyem"
+        }
+    },
+    "Beheeyem": {
+        "name": "Beheeyem",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Elgyem"
+    },
+    "Litwick": {
+        "name": "Litwick",
+        "types": {
+            "Ghost": "Ghost",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Lampent": "Lampent"
+        }
+    },
+    "Lampent": {
+        "name": "Lampent",
+        "types": {
+            "Ghost": "Ghost",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Chandelure": "Chandelure"
+        },
+        "prevo": "Litwick"
+    },
+    "Chandelure": {
+        "name": "Chandelure",
+        "types": {
+            "Ghost": "Ghost",
+            "Fire": "Fire"
+        },
+        "prevo": "Lampent"
+    },
+    "Axew": {
+        "name": "Axew",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Fraxure": "Fraxure"
+        }
+    },
+    "Fraxure": {
+        "name": "Fraxure",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Haxorus": "Haxorus"
+        },
+        "prevo": "Axew"
+    },
+    "Haxorus": {
+        "name": "Haxorus",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "prevo": "Fraxure"
+    },
+    "Cubchoo": {
+        "name": "Cubchoo",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Beartic": "Beartic"
+        }
+    },
+    "Beartic": {
+        "name": "Beartic",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Cubchoo"
+    },
+    "Cryogonal": {
+        "name": "Cryogonal",
+        "types": {
+            "Ice": "Ice"
+        },
+        "gender": "N"
+    },
+    "Shelmet": {
+        "name": "Shelmet",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Accelgor": "Accelgor"
+        }
+    },
+    "Accelgor": {
+        "name": "Accelgor",
+        "types": {
+            "Bug": "Bug"
+        },
+        "prevo": "Shelmet"
+    },
+    "Stunfisk": {
+        "name": "Stunfisk",
+        "types": {
+            "Ground": "Ground",
+            "Electric": "Electric"
+        }
+    },
+    "Galarian Stunfisk": {
+        "name": "Galarian Stunfisk",
+        "types": {
+            "Ground": "Ground",
+            "Steel": "Steel"
+        }
+    },
+    "Mienfoo": {
+        "name": "Mienfoo",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Mienshao": "Mienshao"
+        }
+    },
+    "Mienshao": {
+        "name": "Mienshao",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Mienfoo"
+    },
+    "Druddigon": {
+        "name": "Druddigon",
+        "types": {
+            "Dragon": "Dragon"
+        }
+    },
+    "Golett": {
+        "name": "Golett",
+        "types": {
+            "Ground": "Ground",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Golurk": "Golurk"
+        },
+        "gender": "N"
+    },
+    "Golurk": {
+        "name": "Golurk",
+        "types": {
+            "Ground": "Ground",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Golett",
+        "gender": "N"
+    },
+    "Pawniard": {
+        "name": "Pawniard",
+        "types": {
+            "Dark": "Dark",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Bisharp": "Bisharp"
+        }
+    },
+    "Bisharp": {
+        "name": "Bisharp",
+        "types": {
+            "Dark": "Dark",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Kingambit": "Kingambit"
+        },
+        "prevo": "Pawniard"
+    },
+    "Bouffalant": {
+        "name": "Bouffalant",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Rufflet": {
+        "name": "Rufflet",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Braviary": "Braviary",
+            "Braviary-Hisui": "Braviary-Hisui"
+        },
+        "gender": "M"
+    },
+    "Braviary": {
+        "name": "Braviary",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Rufflet",
+        "gender": "M"
+    },
+    "Braviary-Hisui": {
+        "name": "Braviary-Hisui",
+        "types": {
+            "Psychic": "Psychic",
+            "Flying": "Flying"
+        },
+        "prevo": "Rufflet",
+        "gender": "M"
+    },
+    "Vullaby": {
+        "name": "Vullaby",
+        "types": {
+            "Dark": "Dark",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Mandibuzz": "Mandibuzz"
+        },
+        "gender": "F"
+    },
+    "Mandibuzz": {
+        "name": "Mandibuzz",
+        "types": {
+            "Dark": "Dark",
+            "Flying": "Flying"
+        },
+        "prevo": "Vullaby",
+        "gender": "F"
+    },
+    "Heatmor": {
+        "name": "Heatmor",
+        "types": {
+            "Fire": "Fire"
+        }
+    },
+    "Durant": {
+        "name": "Durant",
+        "types": {
+            "Bug": "Bug",
+            "Steel": "Steel"
+        }
+    },
+    "Deino": {
+        "name": "Deino",
+        "types": {
+            "Dark": "Dark",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Zweilous": "Zweilous"
+        }
+    },
+    "Zweilous": {
+        "name": "Zweilous",
+        "types": {
+            "Dark": "Dark",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Hydreigon": "Hydreigon"
+        },
+        "prevo": "Deino"
+    },
+    "Hydreigon": {
+        "name": "Hydreigon",
+        "types": {
+            "Dark": "Dark",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Zweilous"
+    },
+    "Larvesta": {
+        "name": "Larvesta",
+        "types": {
+            "Bug": "Bug",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Volcarona": "Volcarona"
+        }
+    },
+    "Volcarona": {
+        "name": "Volcarona",
+        "types": {
+            "Bug": "Bug",
+            "Fire": "Fire"
+        },
+        "prevo": "Larvesta"
+    },
+    "Chespin": {
+        "name": "Chespin",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Quilladin": "Quilladin"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Quilladin": {
+        "name": "Quilladin",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Chesnaught": "Chesnaught"
+        },
+        "prevo": "Chespin",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Chesnaught": {
+        "name": "Chesnaught",
+        "types": {
+            "Grass": "Grass",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Quilladin",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Fennekin": {
+        "name": "Fennekin",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Braixen": "Braixen"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Braixen": {
+        "name": "Braixen",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Delphox": "Delphox"
+        },
+        "prevo": "Fennekin",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Delphox": {
+        "name": "Delphox",
+        "types": {
+            "Fire": "Fire",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Braixen",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Froakie": {
+        "name": "Froakie",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Frogadier": "Frogadier"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Frogadier": {
+        "name": "Frogadier",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Greninja": "Greninja"
+        },
+        "prevo": "Froakie",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Greninja": {
+        "name": "Greninja",
+        "types": {
+            "Water": "Water",
+            "Dark": "Dark"
+        },
+        "prevo": "Frogadier",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Bunnelby": {
+        "name": "Bunnelby",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Diggersby": "Diggersby"
+        }
+    },
+    "Diggersby": {
+        "name": "Diggersby",
+        "types": {
+            "Normal": "Normal",
+            "Ground": "Ground"
+        },
+        "prevo": "Bunnelby"
+    },
+    "Fletchling": {
+        "name": "Fletchling",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Fletchinder": "Fletchinder"
+        }
+    },
+    "Fletchinder": {
+        "name": "Fletchinder",
+        "types": {
+            "Fire": "Fire",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Talonflame": "Talonflame"
+        },
+        "prevo": "Fletchling"
+    },
+    "Talonflame": {
+        "name": "Talonflame",
+        "types": {
+            "Fire": "Fire",
+            "Flying": "Flying"
+        },
+        "prevo": "Fletchinder"
+    },
+    "Scatterbug": {
+        "name": "Scatterbug",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Spewpa": "Spewpa"
+        }
+    },
+    "Spewpa": {
+        "name": "Spewpa",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Vivillon": "Vivillon"
+        },
+        "prevo": "Scatterbug"
+    },
+    "Vivillon": {
+        "name": "Vivillon",
+        "types": {
+            "Bug": "Bug",
+            "Flying": "Flying"
+        }
+    },
+    "Litleo": {
+        "name": "Litleo",
+        "types": {
+            "Fire": "Fire",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Pyroar": "Pyroar"
+        },
+        "genderRatio": {
+            "M": 0.125,
+            "F": 0.875
+        }
+    },
+    "Pyroar": {
+        "name": "Pyroar",
+        "types": {
+            "Fire": "Fire",
+            "Normal": "Normal"
+        },
+        "prevo": "Litleo",
+        "genderRatio": {
+            "M": 0.125,
+            "F": 0.875
+        }
+    },
+    "Flabébé": {
+        "name": "Flabébé",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Floette": "Floette"
+        },
+        "gender": "F"
+    },
+    "Floette": {
+        "name": "Floette",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Florges": "Florges"
+        },
+        "prevo": "Flabébé",
+        "gender": "F"
+    },
+    "Florges": {
+        "name": "Florges",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Floette",
+        "gender": "F"
+    },
+    "Skiddo": {
+        "name": "Skiddo",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Gogoat": "Gogoat"
+        }
+    },
+    "Gogoat": {
+        "name": "Gogoat",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Skiddo"
+    },
+    "Pancham": {
+        "name": "Pancham",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Pangoro": "Pangoro"
+        }
+    },
+    "Pangoro": {
+        "name": "Pangoro",
+        "types": {
+            "Fighting": "Fighting",
+            "Dark": "Dark"
+        },
+        "prevo": "Pancham"
+    },
+    "Furfrou": {
+        "name": "Furfrou",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Espurr": {
+        "name": "Espurr",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Meowstic": "Meowstic",
+            "Meowstic ♀": "Meowstic ♀"
+        }
+    },
+    "Meowstic": {
+        "name": "Meowstic",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Espurr",
+        "gender": "M"
+    },
+    "Meowstic ♀": {
+        "name": "Meowstic ♀",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Espurr",
+        "gender": "F"
+    },
+    "Honedge": {
+        "name": "Honedge",
+        "types": {
+            "Steel": "Steel",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Doublade": "Doublade"
+        }
+    },
+    "Doublade": {
+        "name": "Doublade",
+        "types": {
+            "Steel": "Steel",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Aegislash": "Aegislash"
+        },
+        "prevo": "Honedge"
+    },
+    "Aegislash": {
+        "name": "Aegislash",
+        "types": {
+            "Steel": "Steel",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Doublade"
+    },
+    "Spritzee": {
+        "name": "Spritzee",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Aromatisse": "Aromatisse"
+        }
+    },
+    "Aromatisse": {
+        "name": "Aromatisse",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Spritzee"
+    },
+    "Swirlix": {
+        "name": "Swirlix",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Slurpuff": "Slurpuff"
+        }
+    },
+    "Slurpuff": {
+        "name": "Slurpuff",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Swirlix"
+    },
+    "Inkay": {
+        "name": "Inkay",
+        "types": {
+            "Dark": "Dark",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Malamar": "Malamar"
+        }
+    },
+    "Malamar": {
+        "name": "Malamar",
+        "types": {
+            "Dark": "Dark",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Inkay"
+    },
+    "Binacle": {
+        "name": "Binacle",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "evos": {
+            "Barbaracle": "Barbaracle"
+        }
+    },
+    "Barbaracle": {
+        "name": "Barbaracle",
+        "types": {
+            "Rock": "Rock",
+            "Water": "Water"
+        },
+        "prevo": "Binacle"
+    },
+    "Skrelp": {
+        "name": "Skrelp",
+        "types": {
+            "Poison": "Poison",
+            "Water": "Water"
+        },
+        "evos": {
+            "Dragalge": "Dragalge"
+        }
+    },
+    "Dragalge": {
+        "name": "Dragalge",
+        "types": {
+            "Poison": "Poison",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Skrelp"
+    },
+    "Clauncher": {
+        "name": "Clauncher",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Clawitzer": "Clawitzer"
+        }
+    },
+    "Clawitzer": {
+        "name": "Clawitzer",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Clauncher"
+    },
+    "Helioptile": {
+        "name": "Helioptile",
+        "types": {
+            "Electric": "Electric",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Heliolisk": "Heliolisk"
+        }
+    },
+    "Heliolisk": {
+        "name": "Heliolisk",
+        "types": {
+            "Electric": "Electric",
+            "Normal": "Normal"
+        },
+        "prevo": "Helioptile"
+    },
+    "Tyrunt": {
+        "name": "Tyrunt",
+        "types": {
+            "Rock": "Rock",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Tyrantrum": "Tyrantrum"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Tyrantrum": {
+        "name": "Tyrantrum",
+        "types": {
+            "Rock": "Rock",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Tyrunt",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Amaura": {
+        "name": "Amaura",
+        "types": {
+            "Rock": "Rock",
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Aurorus": "Aurorus"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Aurorus": {
+        "name": "Aurorus",
+        "types": {
+            "Rock": "Rock",
+            "Ice": "Ice"
+        },
+        "prevo": "Amaura",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Sylveon": {
+        "name": "Sylveon",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Eevee",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Hawlucha": {
+        "name": "Hawlucha",
+        "types": {
+            "Fighting": "Fighting",
+            "Flying": "Flying"
+        }
+    },
+    "Dedenne": {
+        "name": "Dedenne",
+        "types": {
+            "Electric": "Electric",
+            "Fairy": "Fairy"
+        }
+    },
+    "Carbink": {
+        "name": "Carbink",
+        "types": {
+            "Rock": "Rock",
+            "Fairy": "Fairy"
+        },
+        "gender": "N"
+    },
+    "Goomy": {
+        "name": "Goomy",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Sliggoo": "Sliggoo",
+            "Sliggoo-Hisui": "Sliggoo-Hisui"
+        }
+    },
+    "Sliggoo": {
+        "name": "Sliggoo",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Goodra": "Goodra"
+        },
+        "prevo": "Goomy"
+    },
+    "Sliggoo-Hisui": {
+        "name": "Sliggoo-Hisui",
+        "types": {
+            "Steel": "Steel",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Goodra-Hisui": "Goodra-Hisui"
+        },
+        "prevo": "Goomy"
+    },
+    "Goodra": {
+        "name": "Goodra",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "prevo": "Sliggoo"
+    },
+    "Goodra-Hisui": {
+        "name": "Goodra-Hisui",
+        "types": {
+            "Steel": "Steel",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Sliggoo-Hisui"
+    },
+    "Klefki": {
+        "name": "Klefki",
+        "types": {
+            "Steel": "Steel",
+            "Fairy": "Fairy"
+        }
+    },
+    "Phantump": {
+        "name": "Phantump",
+        "types": {
+            "Ghost": "Ghost",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Trevenant": "Trevenant"
+        }
+    },
+    "Trevenant": {
+        "name": "Trevenant",
+        "types": {
+            "Ghost": "Ghost",
+            "Grass": "Grass"
+        },
+        "prevo": "Phantump"
+    },
+    "Pumpkaboo": {
+        "name": "Pumpkaboo",
+        "types": {
+            "Ghost": "Ghost",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Gourgeist": "Gourgeist"
+        }
+    },
+    "Gourgeist": {
+        "name": "Gourgeist",
+        "types": {
+            "Ghost": "Ghost",
+            "Grass": "Grass"
+        },
+        "prevo": "Pumpkaboo"
+    },
+    "Bergmite": {
+        "name": "Bergmite",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Avalugg": "Avalugg",
+            "Avalugg-Hisui": "Avalugg-Hisui"
+        }
+    },
+    "Avalugg": {
+        "name": "Avalugg",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Bergmite"
+    },
+    "Avalugg-Hisui": {
+        "name": "Avalugg-Hisui",
+        "types": {
+            "Ice": "Ice",
+            "Rock": "Rock"
+        },
+        "prevo": "Bergmite"
+    },
+    "Noibat": {
+        "name": "Noibat",
+        "types": {
+            "Flying": "Flying",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Noivern": "Noivern"
+        }
+    },
+    "Noivern": {
+        "name": "Noivern",
+        "types": {
+            "Flying": "Flying",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Noibat"
+    },
+    "Rowlet": {
+        "name": "Rowlet",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Dartrix": "Dartrix"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Dartrix": {
+        "name": "Dartrix",
+        "types": {
+            "Grass": "Grass",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Decidueye": "Decidueye",
+            "Decidueye-Hisui": "Decidueye-Hisui"
+        },
+        "prevo": "Rowlet",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Decidueye": {
+        "name": "Decidueye",
+        "types": {
+            "Grass": "Grass",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Dartrix",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Decidueye-Hisui": {
+        "name": "Decidueye-Hisui",
+        "types": {
+            "Grass": "Grass",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Dartrix",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Litten": {
+        "name": "Litten",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Torracat": "Torracat"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Torracat": {
+        "name": "Torracat",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Incineroar": "Incineroar"
+        },
+        "prevo": "Litten",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Incineroar": {
+        "name": "Incineroar",
+        "types": {
+            "Fire": "Fire",
+            "Dark": "Dark"
+        },
+        "prevo": "Torracat",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Popplio": {
+        "name": "Popplio",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Brionne": "Brionne"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Brionne": {
+        "name": "Brionne",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Primarina": "Primarina"
+        },
+        "prevo": "Popplio",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Primarina": {
+        "name": "Primarina",
+        "types": {
+            "Water": "Water",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Brionne",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Pikipek": {
+        "name": "Pikipek",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Trumbeak": "Trumbeak"
+        }
+    },
+    "Trumbeak": {
+        "name": "Trumbeak",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Toucannon": "Toucannon"
+        },
+        "prevo": "Pikipek"
+    },
+    "Toucannon": {
+        "name": "Toucannon",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        },
+        "prevo": "Trumbeak"
+    },
+    "Yungoos": {
+        "name": "Yungoos",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Gumshoos": "Gumshoos"
+        }
+    },
+    "Gumshoos": {
+        "name": "Gumshoos",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Yungoos"
+    },
+    "Gumshoos-Totem": {
+        "name": "Gumshoos-Totem",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Grubbin": {
+        "name": "Grubbin",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Charjabug": "Charjabug"
+        }
+    },
+    "Charjabug": {
+        "name": "Charjabug",
+        "types": {
+            "Bug": "Bug",
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Vikavolt": "Vikavolt"
+        },
+        "prevo": "Grubbin"
+    },
+    "Vikavolt": {
+        "name": "Vikavolt",
+        "types": {
+            "Bug": "Bug",
+            "Electric": "Electric"
+        },
+        "prevo": "Charjabug"
+    },
+    "Vikavolt-Totem": {
+        "name": "Vikavolt-Totem",
+        "types": {
+            "Bug": "Bug",
+            "Electric": "Electric"
+        }
+    },
+    "Crabrawler": {
+        "name": "Crabrawler",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Crabominable": "Crabominable"
+        }
+    },
+    "Crabominable": {
+        "name": "Crabominable",
+        "types": {
+            "Fighting": "Fighting",
+            "Ice": "Ice"
+        },
+        "prevo": "Crabrawler"
+    },
+    "Cutiefly": {
+        "name": "Cutiefly",
+        "types": {
+            "Bug": "Bug",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Ribombee": "Ribombee"
+        }
+    },
+    "Ribombee": {
+        "name": "Ribombee",
+        "types": {
+            "Bug": "Bug",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Cutiefly"
+    },
+    "Ribombee-Totem": {
+        "name": "Ribombee-Totem",
+        "types": {
+            "Bug": "Bug",
+            "Fairy": "Fairy"
+        }
+    },
+    "Rockruff": {
+        "name": "Rockruff",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Lycanroc": "Lycanroc"
+        }
+    },
+    "Lycanroc": {
+        "name": "Lycanroc",
+        "types": {
+            "Rock": "Rock"
+        },
+        "prevo": "Rockruff"
+    },
+    "Wishiwashi": {
+        "name": "Wishiwashi",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Mareanie": {
+        "name": "Mareanie",
+        "types": {
+            "Poison": "Poison",
+            "Water": "Water"
+        },
+        "evos": {
+            "Toxapex": "Toxapex"
+        }
+    },
+    "Toxapex": {
+        "name": "Toxapex",
+        "types": {
+            "Poison": "Poison",
+            "Water": "Water"
+        },
+        "prevo": "Mareanie"
+    },
+    "Mudbray": {
+        "name": "Mudbray",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Mudsdale": "Mudsdale"
+        }
+    },
+    "Mudsdale": {
+        "name": "Mudsdale",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Mudbray"
+    },
+    "Dewpider": {
+        "name": "Dewpider",
+        "types": {
+            "Water": "Water",
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Araquanid": "Araquanid"
+        }
+    },
+    "Araquanid": {
+        "name": "Araquanid",
+        "types": {
+            "Water": "Water",
+            "Bug": "Bug"
+        },
+        "prevo": "Dewpider"
+    },
+    "Araquanid-Totem": {
+        "name": "Araquanid-Totem",
+        "types": {
+            "Water": "Water",
+            "Bug": "Bug"
+        }
+    },
+    "Fomantis": {
+        "name": "Fomantis",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Lurantis": "Lurantis"
+        }
+    },
+    "Lurantis": {
+        "name": "Lurantis",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Fomantis"
+    },
+    "Lurantis-Totem": {
+        "name": "Lurantis-Totem",
+        "types": {
+            "Grass": "Grass"
+        }
+    },
+    "Morelull": {
+        "name": "Morelull",
+        "types": {
+            "Grass": "Grass",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Shiinotic": "Shiinotic"
+        }
+    },
+    "Shiinotic": {
+        "name": "Shiinotic",
+        "types": {
+            "Grass": "Grass",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Morelull"
+    },
+    "Salandit": {
+        "name": "Salandit",
+        "types": {
+            "Poison": "Poison",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Salazzle": "Salazzle"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Salazzle": {
+        "name": "Salazzle",
+        "types": {
+            "Poison": "Poison",
+            "Fire": "Fire"
+        },
+        "prevo": "Salandit",
+        "gender": "F"
+    },
+    "Salazzle-Totem": {
+        "name": "Salazzle-Totem",
+        "types": {
+            "Poison": "Poison",
+            "Fire": "Fire"
+        },
+        "gender": "F"
+    },
+    "Stufful": {
+        "name": "Stufful",
+        "types": {
+            "Normal": "Normal",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Bewear": "Bewear"
+        }
+    },
+    "Bewear": {
+        "name": "Bewear",
+        "types": {
+            "Normal": "Normal",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Stufful"
+    },
+    "Bounsweet": {
+        "name": "Bounsweet",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Steenee": "Steenee"
+        },
+        "gender": "F"
+    },
+    "Steenee": {
+        "name": "Steenee",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Tsareena": "Tsareena"
+        },
+        "prevo": "Bounsweet",
+        "gender": "F"
+    },
+    "Tsareena": {
+        "name": "Tsareena",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Steenee",
+        "gender": "F"
+    },
+    "Comfey": {
+        "name": "Comfey",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Oranguru": {
+        "name": "Oranguru",
+        "types": {
+            "Normal": "Normal",
+            "Psychic": "Psychic"
+        }
+    },
+    "Passimian": {
+        "name": "Passimian",
+        "types": {
+            "Fighting": "Fighting"
+        }
+    },
+    "Wimpod": {
+        "name": "Wimpod",
+        "types": {
+            "Bug": "Bug",
+            "Water": "Water"
+        },
+        "evos": {
+            "Golisopod": "Golisopod"
+        }
+    },
+    "Golisopod": {
+        "name": "Golisopod",
+        "types": {
+            "Bug": "Bug",
+            "Water": "Water"
+        },
+        "prevo": "Wimpod"
+    },
+    "Sandygast": {
+        "name": "Sandygast",
+        "types": {
+            "Ghost": "Ghost",
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Palossand": "Palossand"
+        }
+    },
+    "Palossand": {
+        "name": "Palossand",
+        "types": {
+            "Ghost": "Ghost",
+            "Ground": "Ground"
+        },
+        "prevo": "Sandygast"
+    },
+    "Pyukumuku": {
+        "name": "Pyukumuku",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Minior": {
+        "name": "Minior",
+        "types": {
+            "Rock": "Rock",
+            "Flying": "Flying"
+        },
+        "gender": "N"
+    },
+    "Komala": {
+        "name": "Komala",
+        "types": {
+            "Normal": "Normal"
+        }
+    },
+    "Turtonator": {
+        "name": "Turtonator",
+        "types": {
+            "Fire": "Fire",
+            "Dragon": "Dragon"
+        }
+    },
+    "Togedemaru": {
+        "name": "Togedemaru",
+        "types": {
+            "Electric": "Electric",
+            "Steel": "Steel"
+        }
+    },
+    "Togedemaru-Totem": {
+        "name": "Togedemaru-Totem",
+        "types": {
+            "Electric": "Electric",
+            "Steel": "Steel"
+        }
+    },
+    "Mimikyu": {
+        "name": "Mimikyu",
+        "types": {
+            "Ghost": "Ghost",
+            "Fairy": "Fairy"
+        }
+    },
+    "Mimikyu-Totem": {
+        "name": "Mimikyu-Totem",
+        "types": {
+            "Ghost": "Ghost",
+            "Fairy": "Fairy"
+        }
+    },
+    "Mimikyu-Busted-Totem": {
+        "name": "Mimikyu-Busted-Totem",
+        "types": {
+            "Ghost": "Ghost",
+            "Fairy": "Fairy"
+        }
+    },
+    "Bruxish": {
+        "name": "Bruxish",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        }
+    },
+    "Drampa": {
+        "name": "Drampa",
+        "types": {
+            "Normal": "Normal",
+            "Dragon": "Dragon"
+        }
+    },
+    "Dhelmise": {
+        "name": "Dhelmise",
+        "types": {
+            "Ghost": "Ghost",
+            "Grass": "Grass"
+        },
+        "gender": "N"
+    },
+    "Jangmo-o": {
+        "name": "Jangmo-o",
+        "types": {
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Hakamo-o": "Hakamo-o"
+        }
+    },
+    "Hakamo-o": {
+        "name": "Hakamo-o",
+        "types": {
+            "Dragon": "Dragon",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Kommo-o": "Kommo-o"
+        },
+        "prevo": "Jangmo-o"
+    },
+    "Kommo-o": {
+        "name": "Kommo-o",
+        "types": {
+            "Dragon": "Dragon",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Hakamo-o"
+    },
+    "Kommo-o-Totem": {
+        "name": "Kommo-o-Totem",
+        "types": {
+            "Dragon": "Dragon",
+            "Fighting": "Fighting"
+        }
+    },
+    "Grookey": {
+        "name": "Grookey",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Thwackey": "Thwackey"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Thwackey": {
+        "name": "Thwackey",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Rillaboom": "Rillaboom"
+        },
+        "prevo": "Grookey",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Rillaboom": {
+        "name": "Rillaboom",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Thwackey",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Scorbunny": {
+        "name": "Scorbunny",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Raboot": "Raboot"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Raboot": {
+        "name": "Raboot",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Cinderace": "Cinderace"
+        },
+        "prevo": "Scorbunny",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Cinderace": {
+        "name": "Cinderace",
+        "types": {
+            "Fire": "Fire"
+        },
+        "prevo": "Raboot",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Sobble": {
+        "name": "Sobble",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Drizzile": "Drizzile"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Drizzile": {
+        "name": "Drizzile",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Inteleon": "Inteleon"
+        },
+        "prevo": "Sobble",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Inteleon": {
+        "name": "Inteleon",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Drizzile",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Skwovet": {
+        "name": "Skwovet",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Greedent": "Greedent"
+        }
+    },
+    "Greedent": {
+        "name": "Greedent",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Skwovet"
+    },
+    "Rookidee": {
+        "name": "Rookidee",
+        "types": {
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Corvisquire": "Corvisquire"
+        }
+    },
+    "Corvisquire": {
+        "name": "Corvisquire",
+        "types": {
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Corviknight": "Corviknight"
+        },
+        "prevo": "Rookidee"
+    },
+    "Corviknight": {
+        "name": "Corviknight",
+        "types": {
+            "Flying": "Flying",
+            "Steel": "Steel"
+        },
+        "prevo": "Corvisquire"
+    },
+    "Blipbug": {
+        "name": "Blipbug",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Dottler": "Dottler"
+        }
+    },
+    "Dottler": {
+        "name": "Dottler",
+        "types": {
+            "Bug": "Bug",
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Orbeetle": "Orbeetle"
+        },
+        "prevo": "Blipbug"
+    },
+    "Orbeetle": {
+        "name": "Orbeetle",
+        "types": {
+            "Bug": "Bug",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Dottler"
+    },
+    "Nickit": {
+        "name": "Nickit",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Thievul": "Thievul"
+        }
+    },
+    "Thievul": {
+        "name": "Thievul",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Nickit"
+    },
+    "Gossifleur": {
+        "name": "Gossifleur",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Eldegoss": "Eldegoss"
+        }
+    },
+    "Eldegoss": {
+        "name": "Eldegoss",
+        "types": {
+            "Grass": "Grass"
+        },
+        "prevo": "Gossifleur"
+    },
+    "Wooloo": {
+        "name": "Wooloo",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Dubwool": "Dubwool"
+        }
+    },
+    "Dubwool": {
+        "name": "Dubwool",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Wooloo"
+    },
+    "Chewtle": {
+        "name": "Chewtle",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Drednaw": "Drednaw"
+        }
+    },
+    "Drednaw": {
+        "name": "Drednaw",
+        "types": {
+            "Water": "Water",
+            "Rock": "Rock"
+        },
+        "prevo": "Chewtle"
+    },
+    "Yamper": {
+        "name": "Yamper",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Boltund": "Boltund"
+        }
+    },
+    "Boltund": {
+        "name": "Boltund",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Yamper"
+    },
+    "Rolycoly": {
+        "name": "Rolycoly",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Carkol": "Carkol"
+        }
+    },
+    "Carkol": {
+        "name": "Carkol",
+        "types": {
+            "Rock": "Rock",
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Coalossal": "Coalossal"
+        },
+        "prevo": "Rolycoly"
+    },
+    "Coalossal": {
+        "name": "Coalossal",
+        "types": {
+            "Rock": "Rock",
+            "Fire": "Fire"
+        },
+        "prevo": "Carkol"
+    },
+    "Applin": {
+        "name": "Applin",
+        "types": {
+            "Grass": "Grass",
+            "Dragon": "Dragon"
+        },
+        "evos": {
+            "Flapple": "Flapple",
+            "Appletun": "Appletun"
+        }
+    },
+    "Flapple": {
+        "name": "Flapple",
+        "types": {
+            "Grass": "Grass",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Applin"
+    },
+    "Appletun": {
+        "name": "Appletun",
+        "types": {
+            "Grass": "Grass",
+            "Dragon": "Dragon"
+        },
+        "prevo": "Applin"
+    },
+    "Silicobra": {
+        "name": "Silicobra",
+        "types": {
+            "Ground": "Ground"
+        },
+        "evos": {
+            "Sandaconda": "Sandaconda"
+        }
+    },
+    "Sandaconda": {
+        "name": "Sandaconda",
+        "types": {
+            "Ground": "Ground"
+        },
+        "prevo": "Silicobra"
+    },
+    "Cramorant": {
+        "name": "Cramorant",
+        "types": {
+            "Flying": "Flying",
+            "Water": "Water"
+        }
+    },
+    "Arrokuda": {
+        "name": "Arrokuda",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Barraskewda": "Barraskewda"
+        }
+    },
+    "Barraskewda": {
+        "name": "Barraskewda",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Arrokuda"
+    },
+    "Toxel": {
+        "name": "Toxel",
+        "types": {
+            "Electric": "Electric",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Toxtricity Amped": "Toxtricity Amped",
+            "Toxtricity Low Key": "Toxtricity Low Key"
+        }
+    },
+    "Toxtricity Amped": {
+        "name": "Toxtricity Amped",
+        "types": {
+            "Electric": "Electric",
+            "Poison": "Poison"
+        },
+        "prevo": "Toxel"
+    },
+    "Toxtricity Low Key": {
+        "name": "Toxtricity Low Key",
+        "types": {
+            "Electric": "Electric",
+            "Poison": "Poison"
+        },
+        "prevo": "Toxel"
+    },
+    "Sizzlipede": {
+        "name": "Sizzlipede",
+        "types": {
+            "Fire": "Fire",
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Centiskorch": "Centiskorch"
+        }
+    },
+    "Centiskorch": {
+        "name": "Centiskorch",
+        "types": {
+            "Fire": "Fire",
+            "Bug": "Bug"
+        },
+        "prevo": "Sizzlipede"
+    },
+    "Clobbopus": {
+        "name": "Clobbopus",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Grapploct": "Grapploct"
+        }
+    },
+    "Grapploct": {
+        "name": "Grapploct",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Clobbopus"
+    },
+    "Sinistea": {
+        "name": "Sinistea",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Polteageist": "Polteageist"
+        },
+        "gender": "N"
+    },
+    "Polteageist": {
+        "name": "Polteageist",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Sinistea",
+        "gender": "N"
+    },
+    "Hatenna": {
+        "name": "Hatenna",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Hattrem": "Hattrem"
+        },
+        "gender": "F"
+    },
+    "Hattrem": {
+        "name": "Hattrem",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Hatterene": "Hatterene"
+        },
+        "prevo": "Hatenna",
+        "gender": "F"
+    },
+    "Hatterene": {
+        "name": "Hatterene",
+        "types": {
+            "Psychic": "Psychic",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Hattrem",
+        "gender": "F"
+    },
+    "Impidimp": {
+        "name": "Impidimp",
+        "types": {
+            "Dark": "Dark",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Morgrem": "Morgrem"
+        },
+        "gender": "M"
+    },
+    "Morgrem": {
+        "name": "Morgrem",
+        "types": {
+            "Dark": "Dark",
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Grimmsnarl": "Grimmsnarl"
+        },
+        "prevo": "Impidimp",
+        "gender": "M"
+    },
+    "Grimmsnarl": {
+        "name": "Grimmsnarl",
+        "types": {
+            "Dark": "Dark",
+            "Fairy": "Fairy"
+        },
+        "prevo": "Morgrem",
+        "gender": "M"
+    },
+    "Obstagoon": {
+        "name": "Obstagoon",
+        "types": {
+            "Dark": "Dark",
+            "Normal": "Normal"
+        },
+        "prevo": "Galarian Linoone"
+    },
+    "Perrserker": {
+        "name": "Perrserker",
+        "types": {
+            "Steel": "Steel"
+        },
+        "prevo": "Galarian Meowth"
+    },
+    "Cursola": {
+        "name": "Cursola",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Galarian Corsola",
+        "genderRatio": {
+            "M": 0.25,
+            "F": 0.75
+        }
+    },
+    "Sirfetch’d": {
+        "name": "Sirfetch’d",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "prevo": "Galarian Farfetch’d"
+    },
+    "Mr. Rime": {
+        "name": "Mr. Rime",
+        "types": {
+            "Ice": "Ice",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Galarian Mr. Mime"
+    },
+    "Runerigus": {
+        "name": "Runerigus",
+        "types": {
+            "Ground": "Ground",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Galarian Yamask"
+    },
+    "Milcery": {
+        "name": "Milcery",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Alcremie": "Alcremie"
+        },
+        "gender": "F"
+    },
+    "Alcremie": {
+        "name": "Alcremie",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Milcery",
+        "gender": "F"
+    },
+    "Falinks": {
+        "name": "Falinks",
+        "types": {
+            "Fighting": "Fighting"
+        },
+        "gender": "N"
+    },
+    "Pincurchin": {
+        "name": "Pincurchin",
+        "types": {
+            "Electric": "Electric"
+        }
+    },
+    "Snom": {
+        "name": "Snom",
+        "types": {
+            "Ice": "Ice",
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Frosmoth": "Frosmoth"
+        }
+    },
+    "Frosmoth": {
+        "name": "Frosmoth",
+        "types": {
+            "Ice": "Ice",
+            "Bug": "Bug"
+        },
+        "prevo": "Snom"
+    },
+    "Stonjourner": {
+        "name": "Stonjourner",
+        "types": {
+            "Rock": "Rock"
+        }
+    },
+    "Eiscue": {
+        "name": "Eiscue",
+        "types": {
+            "Ice": "Ice"
+        }
+    },
+    "Indeedee": {
+        "name": "Indeedee",
+        "types": {
+            "Psychic": "Psychic",
+            "Normal": "Normal"
+        },
+        "gender": "M"
+    },
+    "Indeedee ♀": {
+        "name": "Indeedee ♀",
+        "types": {
+            "Psychic": "Psychic",
+            "Normal": "Normal"
+        },
+        "gender": "F"
+    },
+    "Morpeko": {
+        "name": "Morpeko",
+        "types": {
+            "Electric": "Electric",
+            "Dark": "Dark"
+        }
+    },
+    "Cufant": {
+        "name": "Cufant",
+        "types": {
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Copperajah": "Copperajah"
+        }
+    },
+    "Copperajah": {
+        "name": "Copperajah",
+        "types": {
+            "Steel": "Steel"
+        },
+        "prevo": "Cufant"
+    },
+    "Dracozolt": {
+        "name": "Dracozolt",
+        "types": {
+            "Electric": "Electric",
+            "Dragon": "Dragon"
+        },
+        "gender": "N"
+    },
+    "Arctozolt": {
+        "name": "Arctozolt",
+        "types": {
+            "Electric": "Electric",
+            "Ice": "Ice"
+        },
+        "gender": "N"
+    },
+    "Dracovish": {
+        "name": "Dracovish",
+        "types": {
+            "Water": "Water",
+            "Dragon": "Dragon"
+        },
+        "gender": "N"
+    },
+    "Arctovish": {
+        "name": "Arctovish",
+        "types": {
+            "Water": "Water",
+            "Ice": "Ice"
+        },
+        "gender": "N"
+    },
+    "Duraludon": {
+        "name": "Duraludon",
+        "types": {
+            "Steel": "Steel",
+            "Dragon": "Dragon"
+        }
+    },
+    "Dreepy": {
+        "name": "Dreepy",
+        "types": {
+            "Dragon": "Dragon",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Drakloak": "Drakloak"
+        }
+    },
+    "Drakloak": {
+        "name": "Drakloak",
+        "types": {
+            "Dragon": "Dragon",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Dragapult": "Dragapult"
+        },
+        "prevo": "Dreepy"
+    },
+    "Dragapult": {
+        "name": "Dragapult",
+        "types": {
+            "Dragon": "Dragon",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Drakloak"
+    },
+    "Wyrdeer": {
+        "name": "Wyrdeer",
+        "types": {
+            "Normal": "Normal",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Stantler"
+    },
+    "Kleavor": {
+        "name": "Kleavor",
+        "types": {
+            "Bug": "Bug",
+            "Rock": "Rock"
+        },
+        "prevo": "Scyther"
+    },
+    "Ursaluna": {
+        "name": "Ursaluna",
+        "types": {
+            "Ground": "Ground",
+            "Normal": "Normal"
+        },
+        "prevo": "Ursaring"
+    },
+    "Basculegion": {
+        "name": "Basculegion",
+        "types": {
+            "Water": "Water",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Basculin-White-Striped",
+        "gender": "M"
+    },
+    "Basculegion ♀": {
+        "name": "Basculegion ♀",
+        "types": {
+            "Water": "Water",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Basculin-White-Striped",
+        "gender": "F"
+    },
+    "Sneasler": {
+        "name": "Sneasler",
+        "types": {
+            "Fighting": "Fighting",
+            "Poison": "Poison"
+        },
+        "prevo": "Sneasel-Hisui"
+    },
+    "Overqwil": {
+        "name": "Overqwil",
+        "types": {
+            "Dark": "Dark",
+            "Poison": "Poison"
+        },
+        "prevo": "Qwilfish-Hisui"
+    },
+    "Sprigatito": {
+        "name": "Sprigatito",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Floragato": "Floragato"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Floragato": {
+        "name": "Floragato",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Meowscarada": "Meowscarada"
+        },
+        "prevo": "Sprigatito",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Meowscarada": {
+        "name": "Meowscarada",
+        "types": {
+            "Grass": "Grass",
+            "Dark": "Dark"
+        },
+        "prevo": "Floragato",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Fuecoco": {
+        "name": "Fuecoco",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Crocalor": "Crocalor"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Crocalor": {
+        "name": "Crocalor",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Skeledirge": "Skeledirge"
+        },
+        "prevo": "Fuecoco",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Skeledirge": {
+        "name": "Skeledirge",
+        "types": {
+            "Fire": "Fire",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Crocalor",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Quaxly": {
+        "name": "Quaxly",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Quaxwell": "Quaxwell"
+        },
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Quaxwell": {
+        "name": "Quaxwell",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Quaquaval": "Quaquaval"
+        },
+        "prevo": "Quaxly",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Quaquaval": {
+        "name": "Quaquaval",
+        "types": {
+            "Water": "Water",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Quaxwell",
+        "genderRatio": {
+            "M": 0.875,
+            "F": 0.125
+        }
+    },
+    "Lechonk": {
+        "name": "Lechonk",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Oinkologne": "Oinkologne",
+            "Oinkologne ♀": "Oinkologne ♀"
+        }
+    },
+    "Oinkologne": {
+        "name": "Oinkologne",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Lechonk",
+        "gender": "M"
+    },
+    "Oinkologne ♀": {
+        "name": "Oinkologne ♀",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Lechonk",
+        "gender": "F"
+    },
+    "Tarountula": {
+        "name": "Tarountula",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Spidops": "Spidops"
+        }
+    },
+    "Spidops": {
+        "name": "Spidops",
+        "types": {
+            "Bug": "Bug"
+        },
+        "prevo": "Tarountula"
+    },
+    "Nymble": {
+        "name": "Nymble",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Lokix": "Lokix"
+        }
+    },
+    "Lokix": {
+        "name": "Lokix",
+        "types": {
+            "Bug": "Bug",
+            "Dark": "Dark"
+        },
+        "prevo": "Nymble"
+    },
+    "Pawmi": {
+        "name": "Pawmi",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Pawmo": "Pawmo"
+        }
+    },
+    "Pawmo": {
+        "name": "Pawmo",
+        "types": {
+            "Electric": "Electric",
+            "Fighting": "Fighting"
+        },
+        "evos": {
+            "Pawmot": "Pawmot"
+        },
+        "prevo": "Pawmi"
+    },
+    "Pawmot": {
+        "name": "Pawmot",
+        "types": {
+            "Electric": "Electric",
+            "Fighting": "Fighting"
+        },
+        "prevo": "Pawmo"
+    },
+    "Tandemaus": {
+        "name": "Tandemaus",
+        "types": {
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Maushold": "Maushold"
+        },
+        "gender": "N"
+    },
+    "Maushold": {
+        "name": "Maushold",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Tandemaus",
+        "gender": "N"
+    },
+    "Fidough": {
+        "name": "Fidough",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "evos": {
+            "Dachsbun": "Dachsbun"
+        }
+    },
+    "Dachsbun": {
+        "name": "Dachsbun",
+        "types": {
+            "Fairy": "Fairy"
+        },
+        "prevo": "Fidough"
+    },
+    "Smoliv": {
+        "name": "Smoliv",
+        "types": {
+            "Grass": "Grass",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Dolliv": "Dolliv"
+        }
+    },
+    "Dolliv": {
+        "name": "Dolliv",
+        "types": {
+            "Grass": "Grass",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Arboliva": "Arboliva"
+        },
+        "prevo": "Smoliv"
+    },
+    "Arboliva": {
+        "name": "Arboliva",
+        "types": {
+            "Grass": "Grass",
+            "Normal": "Normal"
+        },
+        "prevo": "Dolliv"
+    },
+    "Squawkabilly Green Plumage": {
+        "name": "Squawkabilly Green Plumage",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Squawkabilly Blue Plumage": {
+        "name": "Squawkabilly Blue Plumage",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Squawkabilly Yellow Plumage": {
+        "name": "Squawkabilly Yellow Plumage",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Squawkabilly White Plumage": {
+        "name": "Squawkabilly White Plumage",
+        "types": {
+            "Normal": "Normal",
+            "Flying": "Flying"
+        }
+    },
+    "Nacli": {
+        "name": "Nacli",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Naclstack": "Naclstack"
+        }
+    },
+    "Naclstack": {
+        "name": "Naclstack",
+        "types": {
+            "Rock": "Rock"
+        },
+        "evos": {
+            "Garganacl": "Garganacl"
+        },
+        "prevo": "Nacli"
+    },
+    "Garganacl": {
+        "name": "Garganacl",
+        "types": {
+            "Rock": "Rock"
+        },
+        "prevo": "Naclstack"
+    },
+    "Charcadet": {
+        "name": "Charcadet",
+        "types": {
+            "Fire": "Fire"
+        },
+        "evos": {
+            "Armarouge": "Armarouge",
+            "Ceruledge": "Ceruledge"
+        }
+    },
+    "Armarouge": {
+        "name": "Armarouge",
+        "types": {
+            "Fire": "Fire",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Charcadet"
+    },
+    "Ceruledge": {
+        "name": "Ceruledge",
+        "types": {
+            "Fire": "Fire",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Charcadet"
+    },
+    "Tadbulb": {
+        "name": "Tadbulb",
+        "types": {
+            "Electric": "Electric"
+        },
+        "evos": {
+            "Bellibolt": "Bellibolt"
+        }
+    },
+    "Bellibolt": {
+        "name": "Bellibolt",
+        "types": {
+            "Electric": "Electric"
+        },
+        "prevo": "Tadbulb"
+    },
+    "Wattrel": {
+        "name": "Wattrel",
+        "types": {
+            "Electric": "Electric",
+            "Flying": "Flying"
+        },
+        "evos": {
+            "Kilowattrel": "Kilowattrel"
+        }
+    },
+    "Kilowattrel": {
+        "name": "Kilowattrel",
+        "types": {
+            "Electric": "Electric",
+            "Flying": "Flying"
+        },
+        "prevo": "Wattrel"
+    },
+    "Maschiff": {
+        "name": "Maschiff",
+        "types": {
+            "Dark": "Dark"
+        },
+        "evos": {
+            "Mabosstiff": "Mabosstiff"
+        }
+    },
+    "Mabosstiff": {
+        "name": "Mabosstiff",
+        "types": {
+            "Dark": "Dark"
+        },
+        "prevo": "Maschiff"
+    },
+    "Shroodle": {
+        "name": "Shroodle",
+        "types": {
+            "Poison": "Poison",
+            "Normal": "Normal"
+        },
+        "evos": {
+            "Grafaiai": "Grafaiai"
+        }
+    },
+    "Grafaiai": {
+        "name": "Grafaiai",
+        "types": {
+            "Poison": "Poison",
+            "Normal": "Normal"
+        },
+        "prevo": "Shroodle"
+    },
+    "Bramblin": {
+        "name": "Bramblin",
+        "types": {
+            "Grass": "Grass",
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Brambleghast": "Brambleghast"
+        }
+    },
+    "Brambleghast": {
+        "name": "Brambleghast",
+        "types": {
+            "Grass": "Grass",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Bramblin"
+    },
+    "Toedscool": {
+        "name": "Toedscool",
+        "types": {
+            "Ground": "Ground",
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Toedscruel": "Toedscruel"
+        }
+    },
+    "Toedscruel": {
+        "name": "Toedscruel",
+        "types": {
+            "Ground": "Ground",
+            "Grass": "Grass"
+        },
+        "prevo": "Toedscool"
+    },
+    "Klawf": {
+        "name": "Klawf",
+        "types": {
+            "Rock": "Rock"
+        }
+    },
+    "Capsakid": {
+        "name": "Capsakid",
+        "types": {
+            "Grass": "Grass"
+        },
+        "evos": {
+            "Scovillain": "Scovillain"
+        }
+    },
+    "Scovillain": {
+        "name": "Scovillain",
+        "types": {
+            "Grass": "Grass",
+            "Fire": "Fire"
+        },
+        "prevo": "Capsakid"
+    },
+    "Rellor": {
+        "name": "Rellor",
+        "types": {
+            "Bug": "Bug"
+        },
+        "evos": {
+            "Rabsca": "Rabsca"
+        }
+    },
+    "Rabsca": {
+        "name": "Rabsca",
+        "types": {
+            "Bug": "Bug",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Rellor"
+    },
+    "Flittle": {
+        "name": "Flittle",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "evos": {
+            "Espathra": "Espathra"
+        }
+    },
+    "Espathra": {
+        "name": "Espathra",
+        "types": {
+            "Psychic": "Psychic"
+        },
+        "prevo": "Flittle"
+    },
+    "Tinkatink": {
+        "name": "Tinkatink",
+        "types": {
+            "Fairy": "Fairy",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Tinkatuff": "Tinkatuff"
+        },
+        "gender": "F"
+    },
+    "Tinkatuff": {
+        "name": "Tinkatuff",
+        "types": {
+            "Fairy": "Fairy",
+            "Steel": "Steel"
+        },
+        "evos": {
+            "Tinkaton": "Tinkaton"
+        },
+        "prevo": "Tinkatink",
+        "gender": "F"
+    },
+    "Tinkaton": {
+        "name": "Tinkaton",
+        "types": {
+            "Fairy": "Fairy",
+            "Steel": "Steel"
+        },
+        "prevo": "Tinkatuff",
+        "gender": "F"
+    },
+    "Wiglett": {
+        "name": "Wiglett",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Wugtrio": "Wugtrio"
+        }
+    },
+    "Wugtrio": {
+        "name": "Wugtrio",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Wiglett"
+    },
+    "Bombirdier": {
+        "name": "Bombirdier",
+        "types": {
+            "Flying": "Flying",
+            "Dark": "Dark"
+        }
+    },
+    "Finizen": {
+        "name": "Finizen",
+        "types": {
+            "Water": "Water"
+        },
+        "evos": {
+            "Palafin": "Palafin"
+        }
+    },
+    "Palafin": {
+        "name": "Palafin",
+        "types": {
+            "Water": "Water"
+        },
+        "prevo": "Finizen"
+    },
+    "Varoom": {
+        "name": "Varoom",
+        "types": {
+            "Steel": "Steel",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Revavroom": "Revavroom"
+        }
+    },
+    "Revavroom": {
+        "name": "Revavroom",
+        "types": {
+            "Steel": "Steel",
+            "Poison": "Poison"
+        },
+        "prevo": "Varoom"
+    },
+    "Cyclizar": {
+        "name": "Cyclizar",
+        "types": {
+            "Dragon": "Dragon",
+            "Normal": "Normal"
+        }
+    },
+    "Orthworm": {
+        "name": "Orthworm",
+        "types": {
+            "Steel": "Steel"
+        }
+    },
+    "Glimmet": {
+        "name": "Glimmet",
+        "types": {
+            "Rock": "Rock",
+            "Poison": "Poison"
+        },
+        "evos": {
+            "Glimmora": "Glimmora"
+        }
+    },
+    "Glimmora": {
+        "name": "Glimmora",
+        "types": {
+            "Rock": "Rock",
+            "Poison": "Poison"
+        },
+        "prevo": "Glimmet"
+    },
+    "Greavard": {
+        "name": "Greavard",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Houndstone": "Houndstone"
+        }
+    },
+    "Houndstone": {
+        "name": "Houndstone",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "prevo": "Greavard"
+    },
+    "Flamigo": {
+        "name": "Flamigo",
+        "types": {
+            "Flying": "Flying",
+            "Fighting": "Fighting"
+        }
+    },
+    "Cetoddle": {
+        "name": "Cetoddle",
+        "types": {
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Cetitan": "Cetitan"
+        }
+    },
+    "Cetitan": {
+        "name": "Cetitan",
+        "types": {
+            "Ice": "Ice"
+        },
+        "prevo": "Cetoddle"
+    },
+    "Veluza": {
+        "name": "Veluza",
+        "types": {
+            "Water": "Water",
+            "Psychic": "Psychic"
+        }
+    },
+    "Dondozo": {
+        "name": "Dondozo",
+        "types": {
+            "Water": "Water"
+        }
+    },
+    "Tatsugiri": {
+        "name": "Tatsugiri",
+        "types": {
+            "Dragon": "Dragon",
+            "Water": "Water"
+        }
+    },
+    "Annihilape": {
+        "name": "Annihilape",
+        "types": {
+            "Fighting": "Fighting",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Primeape"
+    },
+    "Clodsire": {
+        "name": "Clodsire",
+        "types": {
+            "Poison": "Poison",
+            "Ground": "Ground"
+        },
+        "prevo": "Paldean Wooper"
+    },
+    "Farigiraf": {
+        "name": "Farigiraf",
+        "types": {
+            "Normal": "Normal",
+            "Psychic": "Psychic"
+        },
+        "prevo": "Girafarig"
+    },
+    "Dudunsparce": {
+        "name": "Dudunsparce",
+        "types": {
+            "Normal": "Normal"
+        },
+        "prevo": "Dunsparce"
+    },
+    "Kingambit": {
+        "name": "Kingambit",
+        "types": {
+            "Dark": "Dark",
+            "Steel": "Steel"
+        },
+        "prevo": "Bisharp"
+    },
+    "Frigibax": {
+        "name": "Frigibax",
+        "types": {
+            "Dragon": "Dragon",
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Arctibax": "Arctibax"
+        }
+    },
+    "Arctibax": {
+        "name": "Arctibax",
+        "types": {
+            "Dragon": "Dragon",
+            "Ice": "Ice"
+        },
+        "evos": {
+            "Baxcalibur": "Baxcalibur"
+        },
+        "prevo": "Frigibax"
+    },
+    "Baxcalibur": {
+        "name": "Baxcalibur",
+        "types": {
+            "Dragon": "Dragon",
+            "Ice": "Ice"
+        },
+        "prevo": "Arctibax"
+    },
+    "Gimmighoul": {
+        "name": "Gimmighoul",
+        "types": {
+            "Ghost": "Ghost"
+        },
+        "evos": {
+            "Gholdengo": "Gholdengo"
+        },
+        "gender": "N"
+    },
+    "Gholdengo": {
+        "name": "Gholdengo",
+        "types": {
+            "Steel": "Steel",
+            "Ghost": "Ghost"
+        },
+        "prevo": "Gimmighoul",
+        "gender": "N"
+    }
+}

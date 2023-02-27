@@ -1,0 +1,24 @@
+dex from ./dex.json
+natures from ./natures.civet
+export const genMon = (species = '') ->
+    let gender
+    unless species
+        const specieslist = Object.keys dex
+        species = specieslist[Math.floor Math.random() * specieslist.length]
+    const naturelist = Object.keys natures
+    if dex[species].gender
+        gender = dex[species].gender
+    else if dex[species].genderRatio
+        const roll = Math.random()
+        if roll < dex[species].genderRatio.M
+            gender = 'M'
+        else
+            gender = 'F'
+    else
+        gender = ['M', 'F'][Math.round Math.random()]
+    return
+        species: species
+        nature: naturelist[Math.floor Math.random() * naturelist.length]
+        happiness: 70
+        gender: gender
+        shiny: Math.random() < 0.0025

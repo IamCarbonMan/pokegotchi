@@ -1,0 +1,5 @@
+- UI yadayada
+- connect auth0 and allow users to backup their key and optionally all of their data (if auth0 allows this) to it
+
+- StoreProvider basically gives us easy auth, autosubs to the userspace keys, and gives us a `put` function for each such key
+- should make a separate file of functions that work with and define mon/item/etc schemas. these are plain objects. they should not be nested, ideally.
