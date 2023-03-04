@@ -1,24 +1,81 @@
-dex from ./dex.json
+{Dex} from @pkmn/dex
 natures from ./natures.civet
-export const genMon = (species = '') ->
-    let gender
-    unless species
-        const specieslist = Object.keys dex
-        species = specieslist[Math.floor Math.random() * specieslist.length]
+
+export const genMon = (filter = (i) -> i) ->
+    let gender, mon
     const naturelist = Object.keys natures
-    if dex[species].gender
-        gender = dex[species].gender
-    else if dex[species].genderRatio
-        const roll = Math.random()
-        if roll < dex[species].genderRatio.M
+    if typeof filter is 'string'
+        mon = Dex.species.get filter
+    else
+        const species = Dex.species.all()
+                                   .filter compatFilter
+                                   .filter filter
+        mon = species[Math.floor Math.random() * species.length]
+    if mon.gender
+        gender = mon.gender
+    else
+        if Math.random() < mon.genderRatio.M
             gender = 'M'
         else
             gender = 'F'
-    else
-        gender = ['M', 'F'][Math.round Math.random()]
     return
-        species: species
+        species: fixName mon.name
+        id: mon.id
         nature: naturelist[Math.floor Math.random() * naturelist.length]
         happiness: 70
         gender: gender
         shiny: Math.random() < 0.0025
+
+const fixName = (name) ->
+    // handle regionals
+    if 'Alola' is in name
+        return "Alolan #{(name.split '-')[1]}"
+    if 'Galar' is in name
+        return "Galarian #{(name.split '-')[1]}"
+    if 'Paldea' is in name
+        if 'Tauros' is in name
+            return "#{(name.split '-')[2]} Tauros"
+        return 'Paldean Wooper'
+        
+    // handle gender differences: literally just remove them from the name lmao
+    if name.endsWith '-F' or name.endsWith '-M'
+        return (name.split '-')[0]
+
+    // handle non-cosmetic formes (that actually show up in Dex.species.all())
+    for species in ['Wormadam', 'Basculin', 'Oricorio', 'Toxtricity', 'Squawkabilly', 'Castform', 'Lycanroc', 'Vivillon', 'Maushold', 'Pichu', 'Sinistea', 'Polteageist', 'Dudunsparce', 'Pikachu', 'Rotom', 'Gimmighoul', 'Floette', 'Pumpkaboo', 'Gourgeist', 'Cherrim']
+        if species is in name 
+            return (name.split '-')[0]
+
+    // TODO: implement cosmetic formes: unown, flabebe line, burmy/wormadam, shellos/gastrodon, deerling/sawsbuck, tatsugiri, furfrou, alcremie
+    return name
+
+const compatFilter = (mon, _i, _a, evolved = false) ->
+    // default filter: reject evolved pokemon
+    unless evolved
+        if mon.prevo
+            return false
+
+    // TODO: implement paradoxes, mythicals, legendaries, restricted legendaries, and sub-legendaries
+    for tag of ['Paradox', 'Legendary', 'Mythical', 'Sub-Legendary', 'Restricted Legendary']
+        if tag is in mon.tags
+            return false
+    
+    // TODO: implement megas and gmaxes (totems can probably stay unimplemented)
+    if 'Mega' is in mon.forme or 'Gmax' is in mon.forme or 'Totem' is in mon.forme
+        return false
+
+    // reject nonstandard mons: LGPE, Custom != MissingNo.
+    if mon.isNonstandard is in ['LGPE', 'Custom']
+        unless mon.name is 'MissingNo.'
+            return false
+    
+    // TODO?: maybe implement some formes: ash-gren, cramorant
+    if mon.forme is in ['Ash', 'Gulping', 'Gorging']
+        return false
+    
+    // TODO: implement some switchable formes using an item/other mechanic
+    for name of ['Aegislash-', 'Wishiwashi-', 'Minior-', 'Mimikyu-', 'Eiscue-', 'Morpeko-', 'Palafin-', 'Darmanitan-', 'Venomicon-']
+        if name is in mon.name
+            return false
+
+    return true

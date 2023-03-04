@@ -1,5 +1,10 @@
-- UI yadayada
 - connect auth0 and allow users to backup their key and optionally all of their data (if auth0 allows this) to it
-
-- StoreProvider basically gives us easy auth, autosubs to the userspace keys, and gives us a `put` function for each such key
 - should make a separate file of functions that work with and define mon/item/etc schemas. these are plain objects. they should not be nested, ideally.
+- configurable sprites and other user prefs, start writing universal UI, connect auth0...
+- genMon should take a filter function to implement the gacha tokens
+- work on items
+- css grid
+- consider allowing nested data in gun and refactor the `.on()` listener in `subscribe` to re-get the node and call `.load()` (since calling it on the callback `data` arg itself apparently doesn't work). unsure what issues (proably performance) this might cause
+- genMon needs a couple companion functions- editMon is probably unneeded (just use normal putMon logic) but you'll definitely need an evolveMon function that handles edge cases
+- current item inventory: evolution items, form change items, gacha tokens
+- sprite preferences

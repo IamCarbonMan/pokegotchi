@@ -1,9 +1,19 @@
+{For} from solid-js
 {useStore} from ../data/store.civet
+{Sprites} from @pkmn/img
+{genMon} from ../data/pokemon.civet
 
 export default ->
-    const {store, signout} = useStore()
-    const numMons = -> (Object.keys store.pokemon).length
+    const {store, signout, putPokemon} = useStore()
+    const mons = -> (Object.keys store.pokemon)
+    const getUrl = (name) -> (Sprites.getPokemon name, gen: store.spritePref or 'ani').url
     const showKey = -> btoa JSON.stringify store.key
+    const rollMon = -> putPokemon genMon()
     <div>
-        <p>Your name is {store.name}, you have {numMons} Pokemon, and your key is {showKey}
+        <p>Your name is {store.name} and your key is {showKey}
         <button onClick={signout}>Click here to sign out
+        <button onClick={rollMon}>Click here to get a new Pokemon!
+        <ul>
+            <For each=mons()>(mon) ->
+                <li>
+                    <img src=(getUrl store.pokemon[mon].id)>

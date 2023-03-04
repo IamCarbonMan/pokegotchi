@@ -14,12 +14,25 @@ export const StoreProvider = (props) ->
     const gun = Gun
                     //peers: ['http://localhost:8765/gun']
                     localStorage: false
+    // dev functions
     window['gun'] = gun
+    window['reset'] = ->
+        let max = 0
+        let num = 0
+        window.indexedDB.databases().then (dbs) ->
+            max = dbs.length
+            dbs.forEach (db) ->
+                const del = window.indexedDB.deleteDatabase db.name
+                del.onsuccess = (e) ->
+                    num++
+                    if num is max
+                        window.location.reload()
     const schema =
         key: null
         err: null
         name: ''
         currentMon: ''
+        spritePref: ''
         habit: {}
         pokemon: {}
         inventory: {}
