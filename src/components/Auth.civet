@@ -4,7 +4,7 @@
 export default ->
     const {store, signup, signin, autosignin} = useStore()
     onMount autosignin
-    const handleEnter = (e) ->
+    handleEnter := (e) ->
         if e.keyCode is 13
             signin JSON.parse atob e.target.value
     <div>

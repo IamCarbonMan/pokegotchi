@@ -5,10 +5,10 @@
 
 export default ->
     const {store, signout, putPokemon} = useStore()
-    const mons = -> (Object.keys store.pokemon)
-    const getUrl = (name) -> (Sprites.getPokemon name, gen: store.spritePref or 'ani').url
-    const showKey = -> btoa JSON.stringify store.key
-    const rollMon = -> putPokemon genMon()
+    mons := -> Object.keys store.pokemon
+    getUrl := (name) -> (Sprites.getPokemon name, gen: store.spritePref or 'ani').url
+    showKey := -> btoa JSON.stringify store.key
+    rollMon := -> putPokemon genMon()
     <div>
         <p>Your name is {store.name} and your key is {showKey}
         <button onClick={signout}>Click here to sign out

@@ -2,7 +2,7 @@
 {StoreProvider} from ./data/store.civet
 App from ./components/App.civet
 
-const root = ->
+root := ->
     <StoreProvider>
         <App>
 

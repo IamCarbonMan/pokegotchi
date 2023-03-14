@@ -1,10 +1,35 @@
 - connect auth0 and allow users to backup their key and optionally all of their data (if auth0 allows this) to it
-- should make a separate file of functions that work with and define mon/item/etc schemas. these are plain objects. they should not be nested, ideally.
-- configurable sprites and other user prefs, start writing universal UI, connect auth0...
-- genMon should take a filter function to implement the gacha tokens
-- work on items
+- configurable sprites
 - css grid
 - consider allowing nested data in gun and refactor the `.on()` listener in `subscribe` to re-get the node and call `.load()` (since calling it on the callback `data` arg itself apparently doesn't work). unsure what issues (proably performance) this might cause
-- genMon needs a couple companion functions- editMon is probably unneeded (just use normal putMon logic) but you'll definitely need an evolveMon function that handles edge cases
-- current item inventory: evolution items, form change items, gacha tokens
-- sprite preferences
+- current item inventory: evolution items, form change items, gacha tokens, berries, tera shards
+    - dudunsparce ??
+    - tandemaus ??
+    - meltan??
+- minigames!
+    - can boost happiness, but mostly are just a decent way to farm coins unlimitedly
+    - can have little easter eggs that unlock access to rare items/pokemon
+    - chrome offline dinosaur
+- bottom bar can have a little graphic corresponding to the pokemon's type??
+- theming
+- tera type
+- pet actions:
+    - pet (unlimited use, +1 happiness only when used less than 3 times today?, gives coins equal to happiness threshold (1-5) on these uses)
+    - feed (single use per 6 hours?, adds happiness based on berry preference)
+    - play (minigame, gives happiness based on score (limited per day?) and coins (unlimited?))
+- mobile vs desktop layout
+- clipping
+- some sprites are too big
+- *sound*
+- find/create sprites for all the various items
+- goodies function drops type-tokens, type-shards, random berries, and/or related evolution items
+- finish implementing forms, implement legendaries but filter them out by default
+- implement some legendary forms as evolutions?
+    - zygarde??
+    - calyrex??
+    - necrozma??
+- pokedex???
+- lose happiness if you ignore them (box not included??)
+- be sure to carry all formes across evolutions
+- forme change items
+- start using `Dex.species.get` for types instead of storing them on the mon

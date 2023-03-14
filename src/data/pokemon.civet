@@ -1,16 +1,19 @@
 {Dex} from @pkmn/dex
 natures from ./natures.civet
+{berries} from ./items.civet
 
-export const genMon = (filter = (i) -> i) ->
-    let gender, mon
-    const naturelist = Object.keys natures
-    if typeof filter is 'string'
-        mon = Dex.species.get filter
+export genMon := (filters = [(i) -> i]) ->
+    let gender, mon, specieslist
+    naturelist := Object.keys natures
+    if typeof filters[0] is 'string'
+        mon = Dex.species.get filters[0]
     else
-        const species = Dex.species.all()
-                                   .filter compatFilter
-                                   .filter filter
-        mon = species[Math.floor Math.random() * species.length]
+        specieslist = Dex.species.all().filter compatFilter
+        for filter of filters
+            newlist := specieslist.filter filter
+            if newlist.length > 0
+                specieslist = newlist
+        mon = specieslist[Math.floor Math.random() * specieslist.length]
     if mon.gender
         gender = mon.gender
     else
@@ -20,36 +23,109 @@ export const genMon = (filter = (i) -> i) ->
             gender = 'F'
     return
         species: fixName mon.name
-        id: mon.id
+        id: getId mon.id
+        type1: mon.types[0]
+        type2: mon.types[1] or ''
         nature: naturelist[Math.floor Math.random() * naturelist.length]
         happiness: 70
         gender: gender
         shiny: Math.random() < 0.0025
 
-const fixName = (name) ->
+export getId := (id) ->
+    switch id
+        when 'unown'
+            formes := (Array.from 'bcdefghijklmnopqrstuvwxyz').concat ['', 'exclamation', 'question']
+            return `unown${formes[Math.floor Math.random() * 28]}`
+        when 'burmy'
+            formes := ['', 'sandy', 'trash']
+            return `burmy${formes[Math.floor Math.random() * 3]}`
+        when 'shellos'
+            formes := ['', 'east']
+            return `shellos${formes[Math.floor Math.random() * 2]}`
+        when 'gastrodon'
+            formes := ['', 'east']
+            return `gastrodon${formes[Math.floor Math.random() * 2]}`
+        when 'deerling'
+            formes := ['', 'summer', 'autumn', 'winter']
+            return `deerling${formes[Math.floor Math.random() * 4]}`
+        when 'sawsbuck'
+            formes := ['', 'summer', 'autumn', 'winter']
+            return `sawsbuck${formes[Math.floor Math.random() * 4]}`
+        when 'vivillon'
+            formes := ['', 'archipelago', 'continental', 'elegant', 'garden', 'highplains', 'icysnow', 'jungle', 'marine', 'modern', 'monsoon', 'ocean', 'polar', 'river', 'sandstorm', 'savanna', 'sun', 'tundra']
+            return `vivillon${formes[Math.floor Math.random() * 18]}`
+        when 'flabebe'
+            formes := ['', 'blue', 'orange', 'white', 'yellow']
+            return `flabebe${formes[Math.floor Math.random() * 5]}`
+        when 'floette'
+            formes := ['', 'blue', 'orange', 'white', 'yellow']
+            return `floette${formes[Math.floor Math.random() * 5]}`
+        when 'florges'
+            formes := ['', 'blue', 'orange', 'white', 'yellow']
+            return `florges${formes[Math.floor Math.random() * 5]}`
+        when 'furfrou'
+            formes := ['', 'dandy', 'debutante', 'diamond', 'heart', 'kabuki', 'lareine', 'matron', 'pharaoh', 'star']
+            return `furfrou${formes[Math.floor Math.random() * 10]}`
+        when 'minior'
+            //TODO: implement minior meteor form??
+            formes := ['', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+            return `minior${formes[Math.floor Math.random() * 7]}`
+        when 'alcremie'
+            formes := ['', 'rubycream', 'matchacream', 'mintcream', 'lemoncream', 'saltedcream', 'rubyswirl', 'caramelswirl', 'rainbowswirl']
+            return `alcremie${formes[Math.floor Math.random() * 9]}`
+        when 'tatsugiri'
+            formes := ['', 'droopy', 'stretchy']
+            return `tatsugiri${formes[Math.floor Math.random() * 3]}`
+        else
+            return id
+
+export petMon := (mon) ->
+    now := new Date().getTime()
+    if mon.lastPet < now - 3600000
+        return
+            lastPet: now
+            pets: 1
+            happiness: mon.happiness + 1
+    if mon.pets <= 3
+        return
+            pets: mon.pets + 1
+            happiness: mon.happiness + 1
+
+export feedMon := (mon, berry, inventory) ->
+    now := new Date().getTime()
+    if mon.lastFed < now - 21600000
+        return berries[berry] mon, inventory
+    return false
+
+// export evolve := (mon, item) ->
+//                 species: 'Polteageist'
+//                 id: 'polteageist'
+//                 type1: evolvedMon.types[0]
+//                 type2: evolvedMon.types[1] or ''
+
+export fixName := (name) ->
     // handle regionals
     if 'Alola' is in name
-        return "Alolan #{(name.split '-')[1]}"
+        return `Alolan ${(name.split '-')[0]}`
     if 'Galar' is in name
-        return "Galarian #{(name.split '-')[1]}"
+        return `Galarian ${(name.split '-')[0]}`
     if 'Paldea' is in name
         if 'Tauros' is in name
-            return "#{(name.split '-')[2]} Tauros"
+            return `${(name.split '-')[2]} Tauros`
         return 'Paldean Wooper'
         
     // handle gender differences: literally just remove them from the name lmao
     if name.endsWith '-F' or name.endsWith '-M'
         return (name.split '-')[0]
 
-    // handle non-cosmetic formes (that actually show up in Dex.species.all())
-    for species in ['Wormadam', 'Basculin', 'Oricorio', 'Toxtricity', 'Squawkabilly', 'Castform', 'Lycanroc', 'Vivillon', 'Maushold', 'Pichu', 'Sinistea', 'Polteageist', 'Dudunsparce', 'Pikachu', 'Rotom', 'Gimmighoul', 'Floette', 'Pumpkaboo', 'Gourgeist', 'Cherrim']
-        if species is in name 
+    // handle formes
+    for species of ['Wormadam', 'Basculin', 'Oricorio', 'Toxtricity', 'Squawkabilly', 'Castform', 'Lycanroc', 'Vivillon', 'Maushold', 'Pichu', 'Sinistea', 'Polteageist', 'Dudunsparce', 'Pikachu', 'Rotom', 'Gimmighoul', 'Floette', 'Pumpkaboo', 'Gourgeist', 'Cherrim', 'Unown', 'Burmy', 'Wormadam', 'Flabebe', 'Floette', 'Florges', 'Shellos', 'Gastrodon', 'Deerling', 'Sawsbuck', 'Tatsugiri', 'Furfrou', 'Alcremie', 'Vivillon']
+        if species is in name
             return (name.split '-')[0]
 
-    // TODO: implement cosmetic formes: unown, flabebe line, burmy/wormadam, shellos/gastrodon, deerling/sawsbuck, tatsugiri, furfrou, alcremie
     return name
 
-const compatFilter = (mon, _i, _a, evolved = false) ->
+compatFilter := (mon, _i, _a, evolved = false) ->
     // default filter: reject evolved pokemon
     unless evolved
         if mon.prevo
@@ -69,12 +145,12 @@ const compatFilter = (mon, _i, _a, evolved = false) ->
         unless mon.name is 'MissingNo.'
             return false
     
-    // TODO?: maybe implement some formes: ash-gren, cramorant
-    if mon.forme is in ['Ash', 'Gulping', 'Gorging']
+    // TODO?: maybe implement some formes: ash-gren, cramorant, special vivillons
+    if mon.forme is in ['Ash', 'Gulping', 'Gorging', 'Fancy', 'Pokeball']
         return false
     
     // TODO: implement some switchable formes using an item/other mechanic
-    for name of ['Aegislash-', 'Wishiwashi-', 'Minior-', 'Mimikyu-', 'Eiscue-', 'Morpeko-', 'Palafin-', 'Darmanitan-', 'Venomicon-']
+    for name of ['Aegislash-', 'Wishiwashi-', 'Mimikyu-', 'Eiscue-', 'Morpeko-', 'Palafin-', 'Darmanitan-', 'Venomicon-']
         if name is in mon.name
             return false
 

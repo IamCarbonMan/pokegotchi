@@ -1,0 +1,225 @@
+export default {
+    Cheri: 
+      spicy: 10
+    Chesto: 
+      dry: 10
+    Pecha: 
+      sweet: 10
+    Rawst:
+      bitter: 10
+    Aspear:
+      sour: 10
+    Leppa: 
+      spicy: 10
+      sweet: 10
+      bitter: 10
+      sour: 10
+    Oran: 
+      spicy: 10
+      dry: 10
+      bitter: 10
+      sour: 10
+    Persim: 
+      spicy: 10
+      dry: 10
+      sweet: 10
+      sour: 10
+    Lum: 
+      spicy: 10
+      dry: 10
+      sweet: 10
+      bitter: 10
+    Sitrus:
+      dry: 10
+      sweet: 10
+      bitter: 10
+      sour: 10
+    Figy: 
+      spicy: 15
+    Wiki:
+      dry: 15
+    Mago:
+      sweet: 15
+    Aguav:
+      bitter: 15
+    Iapapa:
+      sour: 15
+    Razz: 
+      spicy: 10
+      dry: 10
+    Bluk:
+      dry: 10
+      sweet: 10
+    Nanab:
+      sweet: 10
+      bitter: 10
+    Wepear:
+      bitter: 10
+      sour: 10
+    Pinap: 
+      spicy: 10
+      sour: 10
+    Pomeg: 
+      spicy: 10
+      sweet: 10
+      bitter: 10
+    Kelpsy:
+      dry: 10
+      bitter: 10
+      sour: 10
+    Qualot: 
+      spicy: 10
+      sweet: 10
+      sour: 10
+    Hondew: 
+      spicy: 10
+      dry: 10
+      bitter: 10
+    Grepa:
+      dry: 10
+      sweet: 10
+      sour: 10
+    Tamato: 
+      spicy: 20
+      dry: 10
+    Cornn:
+      dry: 20
+      sweet: 10
+    Magost:
+      sweet: 20
+      bitter: 10
+    Rabuta:
+      bitter: 20
+      sour: 10
+    Nomel: 
+      spicy: 10
+      sour: 20
+    Spelon: 
+      spicy: 30
+      dry: 10
+    Pamtre:
+      dry: 30
+      sweet: 10
+    Watmel:
+      sweet: 30
+      bitter: 10
+    Durin:
+      bitter: 30
+      sour: 10
+    Belue: 
+      spicy: 10
+      sour: 30
+    Occa: 
+      spicy: 15
+      sweet: 10
+    Passho: 
+      dry: 15
+      bitter: 10
+    Wacan: 
+      sweet: 15
+      sour: 10
+    Rindo: 
+      spicy: 10
+      bitter: 15
+    Yache:
+      dry: 10
+      sour: 15
+    Chople: 
+      spicy: 15
+      bitter: 10
+    Kebia:
+      dry: 15
+      sour: 10
+    Shuca: 
+      spicy: 10
+      sweet: 15
+    Coba:
+      dry: 10
+      bitter: 15
+    Payapa:
+      sweet: 10
+      sour: 15
+    Tanga: 
+      spicy: 20
+      sour: 10
+    Charti: 
+      spicy: 10
+      dry: 20
+    Kasib:
+      dry: 10
+      sweet: 20
+    Haban:
+      sweet: 10
+      bitter: 20
+    Colbur:
+      bitter: 10
+      sour: 20
+    Babiri: 
+      spicy: 25
+      dry: 10
+    Chilan:
+      dry: 25
+      sweet: 10
+    Liechi: 
+      spicy: 30
+      dry: 10
+      sweet: 30
+    Ganlon:
+      dry: 30
+      sweet: 10
+      bitter: 30
+    Salac:
+      sweet: 30
+      bitter: 10
+      sour: 30
+    Petaya: 
+      spicy: 30
+      bitter: 30
+      sour: 10
+    Apicot: 
+      spicy: 10
+      dry: 30
+      sour: 30
+    Lansat: 
+      spicy: 30
+      dry: 10
+      sweet: 30
+      bitter: 10
+      sour: 30
+    Starf: 
+      spicy: 30
+      dry: 10
+      sweet: 30
+      bitter: 10
+      sour: 30
+    Enigma: 
+      spicy: 40
+      dry: 10
+    Micle:
+      dry: 40
+      sweet: 10
+    Custap:
+      sweet: 40
+      bitter: 10
+    Jaboca:
+      bitter: 40
+      sour: 10
+    Rowap: 
+      spicy: 10
+      sour: 40
+    Roseli:
+      sweet: 25
+      bitter: 10
+    Kee: 
+      spicy: 30
+      dry: 30
+      sweet: 10
+      bitter: 10
+      sour: 10
+    Maranga: 
+      spicy: 10
+      dry: 10
+      sweet: 30
+      bitter: 30
+      sour: 10
+}

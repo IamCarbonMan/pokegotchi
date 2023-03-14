@@ -1,0 +1,23 @@
+{useStore} from ../data/store.civet
+{Sprites} from @pkmn/img
+typeglyphs from ../data/typeglyphs.civet
+
+export default ({id}) ->
+    const {store, putPokemon} = useStore()
+    mon := store.pokemon[id]
+    getUrl := -> (Sprites.getPokemon mon.id, gen: store.spritePref or 'gen5ani').url
+    getHearts := -> '❤️'.repeat Math.floor mon.happiness / 20
+    getTypeGlyph := -> typeglyphs[mon.type1]
+    <div .tamagotchi .{mon.type1}>
+        <span .name>{mon.nickname or mon.species}
+        <span .happiness-type> {getHearts()}
+            <span .typecircle .{mon.type1}>Z
+            <span>{getTypeGlyph()}
+        <div .art .{mon.type1}>
+            <img .sprite src=getUrl()>
+        <button .pet>Pet!
+        <p .pet-cost>❤️
+        <button .feed>Feed!
+        <p .feed-cost>❤️❤️🍕
+        <button .play>Play!
+        <p .play-cost>❤️🪙

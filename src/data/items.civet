@@ -1,0 +1,299 @@
+types from ./types.civet
+{default: berrylist} from ./berries.civet
+natures from ./natures.civet
+{Dex} from @pkmn/dex
+{fixName, getId} from ./pokemon.civet
+
+tokens := {}
+for type of types
+    tokens[`${type} Egg Token`] = (mon) -> mon.types.includes type
+
+shards := {}
+for type of types
+    shards[`${type} Tera Shard`] = -> tera: type
+
+berries := {}
+for berry of Object.keys berrylist
+    berries[`${berry} Berry`] = (mon, inventory) ->
+        value .= 0
+        for flavor of Object.keys berrylist[berry]
+            if flavor is in natures[mon.nature]
+                if flavor is natures[mon.nature][0]
+                    value += berrylist[berry][flavor] / 2.5
+                if flavor is natures[mon.nature][1]
+                    value -= berrylist[berry][flavor] / 2.5
+            else
+                value += berrylist[berry][flavor] / 5
+        retval .=
+            happiness: mon.happiness + value
+            goodies: mon.goodies or {}
+        if value > 0
+            retval.goodies = getGoodies mon, inventory
+        return retval
+
+getGoodies := (mon, inventory) ->
+    drops := {}
+    goodies := genGoodies mon
+    for goodie of Object.keys goodies
+        drops[goodie] = (inventory[goodie] or 0) + goodies[goodie]
+    return drops
+
+genGoodies := (mon) ->
+    goodies := {}
+    berrypool := Object.keys berries
+    happylevel := Math.ceil mon.happiness / 20
+    selectedType := mon[`type${Math.ceil Math.random() * 2}`]
+    tokenname := `${selectedType} Egg Token`
+    goodies[tokenname] = (goodies[tokenname] or 0) + happylevel
+    currentroll .= 1
+    until currentroll > happylevel
+        if Math.random() > 0.3
+            berry := berrypool[Math.floor Math.random() * berrypool.length]
+            goodies[berry] = (goodies[berry] or 0) + 1
+        currentroll++
+    if Math.random() < mon.happiness / 2000
+        shardname := `${selectedType} Tera Shard`
+        goodies[shardname] = (goodies[shardname] or 0) + 1
+    return goodies
+
+evoTests := {
+    'Chipped Pot': (mon) -> mon.id is 'sinisteaantique'
+    'Cracked Pot': (mon) -> mon.id is 'sinistea'
+    'Sweet Apple': (mon) -> mon.id is 'applin'
+    'Tart Apple': (mon) -> mon.id is 'applin'
+    'Prism Scale': (mon) -> mon.id is 'feebas'
+    'Deep Sea Scale': (mon) -> mon.id is 'clamperl'
+    'Deep Sea Tooth': (mon) -> mon.id is 'clamperl'
+    'Dragon Scale': (mon) -> mon.id is 'seadra'
+    'Dubious Disc': (mon) -> mon.id is 'porygon2'
+    'Protector': (mon) -> mon.id is 'rhydon'
+    'Electrizer': (mon) -> mon.id is 'electabuzz'
+    'Magmarizer': (mon) -> mon.id is 'magmar'
+    'Reaper Cloth': (mon) -> mon.id is 'dusclops'
+    'Sachet': (mon) -> mon.id is 'spritzee'
+    'Upgrade': (mon) -> mon.id is 'porygon'
+    'Whipped Dream': (mon) -> mon.id is 'swirlix'
+    'Razor Claw': (mon) -> mon.id is in ['sneasel', 'sneaselhisui']
+    'Razor Fang': (mon) -> mon.id is 'gligar'
+    'Oval Stone': (mon) -> mon.id is 'happiny'
+    "Leader's Crest": (mon) -> mon.id is 'bisharp'
+    'Galarica Cuff': (mon) -> mon.id is 'slowpokegalar'
+    'Galarica Wreath': (mon) -> mon.id is 'slowpokegalar'
+    'Scroll of Darkness': (mon) -> mon.id is 'kubfu'
+    'Scroll of Waters': (mon) -> mon.id is 'kubfu'
+    'Black Augurite': (mon) -> mon.id is 'scyther'
+    'Peat Block': (mon) -> mon.id is 'ursaring'
+    'Auspicious Armor': (mon) -> mon.id is 'charcadet'
+    'Malicious Armor': (mon) -> mon.id is 'charcadet'
+    'Metal Coat': (mon) -> mon.id is in ['scyther', 'onix']
+    "King's Rock": (mon) -> mon.id is in ['poliwhirl', 'slowpoke']
+    'Link Cable': (mon) -> mon.id is in ['kadabra', 'machoke', 'graveler', 'graveleralola', 'haunter', 'boldore', 'gurdurr', 'karrablast', 'shelmet', 'phantump', 'pumpkaboo', 'pumpkaboosmall', 'pumpkaboolarge', 'pumpkaboosuper']
+    'Alola Stone': (mon) -> mon.id is in ['pikachu', 'exeggcute', 'cubone']
+    'Galar Stone': (mon) -> mon.id is in ['koffing', 'mimejr']
+    'Hisui Stone': (mon) -> mon.id is in ['quilava', 'dewott', 'dartrix', 'petilil', 'rufflet', 'goomy', 'bergmite']
+    'Strawberry Sweet': (mon) -> mon.id is 'milcery'
+    'Fire Stone': (mon) -> mon.id is in ['vulpix', 'growlithe', 'growlithehisui', 'eevee', 'pansear', 'capsakid']
+    'Water Stone': (mon) -> mon.id is in ['poliwhirl', 'shellder', 'staryu', 'eevee', 'lombre', 'panpour']
+    'Thunder Stone': (mon) -> mon.id is in ['pikachu', 'magneton', 'eevee', 'nosepass', 'eelektrik', 'charjabug', 'tadbulb']
+    'Leaf Stone': (mon) -> mon.id is in ['gloom', 'weepinbell', 'exeggcute', 'voltorbhisui', 'eevee', 'nuzleaf', 'pansage']
+    'Moon Stone': (mon) -> mon.id is in ['nidorina', 'nidorino', 'clefairy', 'jigglypuff', 'skitty', 'munna']
+    'Sun Stone': (mon) -> mon.id is in ['gloom', 'sunkern', 'cottonee', 'petilil', 'helioptile']
+    'Shiny Stone': (mon) -> mon.id is in ['togetic', 'roselia', 'lampent', 'doublade']
+    'Dawn Stone': (mon) -> (mon.id is 'kirlia' and mon.gender is 'M') or (mon.id is 'snorunt' and mon.gender is 'F')
+    'Ice Stone': (mon) -> mon.id is in ['sandshrewalola', 'vulpixalola', 'eevee', 'darumakagalar', 'crawbrawler', 'cetoddle']
+    'Gimmighoul Coin': (mon) -> mon.id is in ['gimmighoul', 'gimmighoulroaming']
+    'Leek': (mon) -> mon.id is 'farfetchdgalar'
+    'Rare Candy': (mon) -> mon.id is not in ['sinisteaantique', 'sinistea', 'applin', 'feebas', 'clamperl', 'seadra', 'porygon2', 'rhydon', 'electabuzz', 'magmar', 'dusclops', 'spritzee', 'porygon', 'swirlix', 'sneasel', 'sneaselhisui', 'gligar', 'happiny', 'bisharp', 'slowpokegalar', 'kubfu', 'scyther', 'ursaring', 'charcadet', 'onix', 'poliwhirl', 'kadabra', 'machoke', 'graveler', 'graveleralola', 'haunter', 'boldore', 'gurdurr', 'karrablast', 'shelmet', 'phantump', 'pumpkaboo', 'pumpkaboosmall', 'pumpkaboolarge', 'pumpkaboosuper', 'pikachu', 'petilil', 'milcery', 'vulpix', 'growlithe', 'growlithehisui', 'eevee', 'pansear', 'capsakid', 'poliwhirl', 'shellder', 'staryu', 'lombre', 'panpour', 'pikachu', 'magneton', 'nosepass', 'eelektrik', 'charjabug', 'tadbulb', 'gloom', 'weepinbell', 'exeggcute', 'voltorbhisui', 'nuzleaf', 'pansage', 'nidorina', 'nidorino', 'clefairy', 'jigglypuff', 'skitty', 'munna', 'gloom', 'sunkern', 'cottonee', 'petilil', 'helioptile', 'togetic', 'roselia', 'lampent', 'doublade', 'sandshrewalola', 'vulpixalola', 'darumakagalar', 'crawbrawler', 'cetoddle', 'gimmighoul', 'gimmighoulroaming', 'farfetchdgalar']
+}
+
+makeEvo := (id) ->
+    species: fixName id
+    happiness: 50
+    id: id
+
+evoItems := {
+    'Chipped Pot': -> makeEvo 'polteageistantique'
+    'Cracked Pot': -> makeEvo 'polteageist'
+    'Sweet Apple': -> makeEvo 'appletun'
+    'Tart Apple': -> makeEvo 'flapple'
+    'Prism Scale': -> makeEvo 'milotic'
+    'Deep Sea Scale': -> makeEvo 'gorebyss'
+    'Deep Sea Tooth': -> makeEvo 'huntail'
+    'Dragon Scale': -> makeEvo 'kingdra'
+    'Dubious Disc': -> makeEvo 'porygonz'
+    'Protector': -> makeEvo 'rhyperior'
+    'Electrizer': -> makeEvo 'electivire'
+    'Magmarizer': -> makeEvo 'magmortar'
+    'Reaper Cloth': -> makeEvo 'dusknoir'
+    'Sachet': -> makeEvo 'aromatisse'
+    'Upgrade': -> makeEvo 'porygon2'
+    'Whipped Dream': -> makeEvo 'slurpuff'
+    'Razor Claw': (mon) -> makeEvo {sneasel: 'weavile', sneaselhisui: 'sneasler'}[mon.id]
+    'Razor Fang': -> makeEvo 'gliscor'
+    'Oval Stone': -> makeEvo 'chansey'
+    "Leader's Crest": -> makeEvo 'kingambit'
+    'Galarica Cuff': -> makeEvo 'slowbrogalar'
+    'Galarica Wreath': -> makeEvo 'slowkinggalar'
+    'Scroll of Darkness': -> makeEvo 'urshifusinglestrike'
+    'Scroll of Waters': -> makeEvo 'urshifurapidstrike'
+    'Black Augurite': -> makeEvo 'kleavor'
+    'Peat Block': -> makeEvo 'ursaluna'
+    'Auspicious Armor': -> makeEvo 'armorouge'
+    'Malicious Armor': -> makeEvo 'ceruledge'
+    'Metal Coat': (mon) -> makeEvo {scyther: 'scizor', onix: 'steelix'}[mon.id]
+    "King's Rock": (mon) -> makeEvo {slowpoke: 'slowking', poliwhirl: 'politoed'}[mon.id]
+    'Link Cable': (mon) -> makeEvo {
+        kadabra: 'alakazam'
+        machoke: 'machamp'
+        graveler: 'golem'
+        graveleralola: 'golemalola'
+        haunter: 'gengar'
+        boldore: 'gigalith'
+        gurdurr: 'conkeldurr'
+        karrablast: 'karrablast'
+        shelmet: 'shelmet'
+        phantump: 'trevenant'
+        pumpkaboosmall: 'gourgeistsmall'
+        pumpkaboo: 'gourgeist'
+        pumpkaboolarge: 'gourgeistlarge'
+        pumpkaboosuper: 'gourgeistsuper'
+    }[mon.id]
+    'Alola Stone': (mon) -> makeEvo {pikachu: 'raichualola', exeggcute: 'exeggutoralola', cubone: 'marowakalola'}[mon.id]
+    'Galar Stone': (mon) -> makeEvo {koffing: 'weezinggalar', mimejr: 'mrmimegalar'}[mon.id]
+    'Hisui Stone': (mon) -> makeEvo {
+        quilava: 'typhlosionhisui'
+        dewott: 'samurotthisui'
+        dartrix: 'decidueyehisui'
+        petili: 'lilliganthisui'
+        rufflet: 'braviaryhisui'
+        goomy: 'sliggoohisui'
+        bergmite: 'avalugghisui'
+    }[mon.id]
+    'Strawberry Sweet': ->    
+        formes := ['', 'rubycream', 'matchacream', 'mintcream', 'lemoncream', 'saltedcream', 'rubyswirl', 'caramelswirl', 'rainbowswirl']
+        makeEvo `alcremie${formes[Math.floor Math.random() * 9]}`
+    'Fire Stone': (mon) -> makeEvo {
+        vulpix: 'ninetales'
+        growlithe: 'arcanine'
+        growlithehisui: 'arcaninehisui'
+        eevee: 'flareon'
+        pansear: 'simisear'
+        capsakid: 'scovillain'
+    }[mon.id]
+    'Water Stone': (mon) -> makeEvo {
+        poliwhirl: 'poliwrath'
+        shellder: 'cloyster'
+        staryu: 'starmie'
+        eevee: 'vaporeon'
+        lombre: 'ludicolo'
+        panpour: 'simipour'
+    }[mon.id]
+    'Thunder Stone': (mon) -> makeEvo {
+        pikachu: 'raichu'
+        magneton: 'magnezone'
+        eevee: 'jolteon'
+        nosepass: 'probopass'
+        eelektrik: 'eelektross'
+        charjabug: 'vikavolt'
+        tadbulb: 'bellibolt'
+    }[mon.id]
+    'Leaf Stone': (mon) -> makeEvo {
+        gloom: 'vileplume'
+        weepinbell: 'victreebel'
+        exeggcute: 'exeggutor'
+        voltorbhisui: 'electrodehisui'
+        eevee: 'leafeon'
+        nuzleaf: 'shiftry'
+        pansage: 'simisage'
+    }[mon.id]
+    'Moon Stone': (mon) -> makeEvo {
+        nidorina: 'nidoqueen'
+        nidorino: 'nidoking'
+        clefairy: 'clefable'
+        jigglypuff: 'wigglytuff'
+        skitty: 'delcatty'
+        munna: 'musharna'
+    }[mon.id]
+    'Sun Stone': (mon) -> makeEvo {
+        gloom: 'bellossom'
+        sunkern: 'sunflora'
+        cottonee: 'whimsicott'
+        petilil: 'lilligant'
+        helioptile: 'heliolisk'
+    }[mon.id]
+    'Shiny Stone': (mon) -> makeEvo {
+        togetic: 'togekiss'
+        roselia: 'roserade'
+        lampent: 'chandelure'
+        doublade: 'aegislash'
+    }[mon.id]
+    'Dawn Stone': (mon) -> makeEvo {kirlia: 'gallade', snorunt: 'froslass'}[mon.id]
+    'Ice Stone': (mon) -> makeEvo {
+        sandshrewalola: 'sandslashalola'
+        vulpixalola: 'ninetalesalola'
+        eevee: 'glaceon'
+        darumakagalar: 'darmanitangalar'
+        crabrawler: 'crabominable'
+        cetoddle: 'cetitan'
+    }[mon.id]
+    'Gimmighoul Coin': -> makeEvo 'gholdengo'
+    'Leek': -> makeEvo 'sirfetchd'
+    'Rare Candy': ({id, tera, gender, nature}) ->
+        switch id
+            'eevee'
+                check := tera or ['Dark', 'Psychic', 'Fairy'][Math.floor Math.random() * 3]
+                switch check
+                    when 'Dark'
+                        return makeEvo 'umbreon'
+                    when 'Psychic'
+                        return makeEvo 'espeon'
+                    when 'Fairy'
+                        return makeEvo 'sylveon'
+            'tyrogue'
+                return makeEvo ['hitmonlee', 'hitmonchan', 'hitmontop'][Math.floor Math.random() * 3]
+            'wurmple'
+                return makeEvo ['silcoon', 'cascoon'][Math.floor Math.random() * 2]
+            'nincada'
+                return makeEvo ['ninjask', 'shedinja'][Math.floor Math.random() * 2]
+            'cosmoem'
+                check := tera or ['Steel', 'Ghost'][Math.floor Math.random() * 2]
+                switch check
+                    when 'Steel'
+                        return makeEvo 'solgaleo'
+                    when 'Ghost'
+                        return makeEvo 'lunala'
+            'rockruff'
+                return makeEvo ['lycanroc', 'lycanrocmidnight', 'lycanrocdusk'][Math.floor Math.random() * 3]
+            'toxel'
+                if nature is in ['hardy', 'brave', 'adamant', 'naughty', 'docile', 'impish', 'lax', 'hasty', 'jolly', 'naive', 'rash', 'sassy', 'quirky']
+                    return makeEvo 'toxtricity'
+                return makeEvo 'toxtricitylowkey'
+            /burmy*/
+                if gender is 'M'
+                    return makeEvo 'mothim'
+                return makeEvo 'wormadam' + id.substr 5
+            /deerling*/
+                return makeEvo 'sawsbuck' + id.substr 8
+            'spewpa'
+                return makeEvo getId 'vivillon'
+            /flabebe*/
+                return makeEvo 'floette' + id.substr 7
+            /floette*/
+                return makeEvo 'florges' + id.substr 7
+            else
+                return makeEvo (Dex.species.get id).evos[0]
+}
+
+otherItems :=
+    'Potion of Trans Gender': (mon) ->
+        if mon.gender is 'M'
+            return gender: 'F'
+        if mon.gender is 'F'
+            return gender: 'M'
+        if Math.random() < 0.5
+            return gender: 'M'
+        return gender: 'F'
+    'Potion of No Gender': -> gender: 'N'
+    'Potion of Yes Gender': -> gender: 'Y'
+
+export tokens, shards, berries, getGoodies, evoTests, evoItems, otherItems

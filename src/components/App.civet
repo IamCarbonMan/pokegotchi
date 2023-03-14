@@ -1,18 +1,26 @@
-{Switch, Match} from solid-js
+{Switch, Match, For} from solid-js
 {useStore} from ../data/store.civet
+{genMon} from ../data/pokemon.civet
 Tutorial from ./Tutorial.civet
-Game from ./Game.civet
+Tamagotchi from ./Tamagotchi.civet
+//Test from ./Test.civet
 Auth from ./Auth.civet
 
 export default ->
-  const {store} = useStore()
-  const tutorialized = -> store.name and (Object.keys store.pokemon).length > 0
+  const {store, putPokemon} = useStore()
+  tutorialized := -> store.name and (Object.keys store.pokemon).length > 0
+  mons := -> (Object.keys store.pokemon)
+  rollMon := -> putPokemon genMon()
   <Switch>
-    <Match when={store.key}>
+    <Match when=store.key>
       <Switch>
-        <Match when={tutorialized()}>
-          <Game>
-        <Match when={true}>
+        <Match when=tutorialized()>
+          <button onClick=rollMon>Get a new Pokemon!
+          <ul>
+            <For each=mons()>(mon) ->
+              <li>
+                <Tamagotchi id=mon>
+        <Match when=true>
           <Tutorial>
-    <Match when={true}>
+    <Match when=true>
       <Auth>

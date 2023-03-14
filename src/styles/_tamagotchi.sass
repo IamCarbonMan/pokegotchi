@@ -1,0 +1,81 @@
+@use 'colors'
+ 
+.tamagotchi
+    aspect-ratio: 5 / 7
+    @media (orientation: landscape)
+        height: 100%
+    @media (orientation: portrait)
+        width: 100%
+    display: grid
+    grid-template-areas: ". name . happiness-type ." ". art art art ." ". . . . ." ". pet pet-cost . ." ". feed feed-cost . ." ". play play-cost . ."
+    grid-template-rows: 5% 50% 5% 13% 13% 13%
+    grid-template-columns: 5% 30% 30% 30% 5%
+    box-shadow: inset 0 0 0 8px goldenrod
+    border-radius: 8px
+    @each $name, $hex in colors.$colors
+        &.#{$name}
+            background-color: $hex
+            background-image: url('../assets/filter.png')
+    .name
+        grid-area: name
+        font-size: 4vw
+        display: flex
+        justify-content: left
+        align-items: center
+    .happiness-type
+        grid-area: happiness-type
+        text-align: right
+        vertical-align: sub
+        font-size: 4vw
+        font-family: pokemon
+        display: flex
+        justify-content: right
+        align-items: center
+        @each $name, $hex in colors.$colors
+            .typecircle.#{$name}
+                color: $hex
+    .art
+        grid-area: art
+        display: flex
+        justify-content: center
+        align-items: center
+        box-shadow: inset 0 0 0 10px goldenrod
+        border-radius: 10px
+        background-size: cover
+        &.Ice
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-icecave.png")
+        &.Psychic, &.Fairy
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-space.jpg")
+        &.Fire
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-volcanocave.png")
+        &.Dark, &.Poison, &.Steel
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-city.png")
+        &.Ground
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-desert.png")
+        &.Rock
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-earthycave.png")
+        &.Grass, &.Bug
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-forest.png")
+        &.Water
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-beachshore.png")
+        &.Ghost, &.Dragon
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-dampcave.png")
+        &.Normal, &.Fighting, &.Flying
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-meadow.png")
+        &.Electric
+            background-image: url("https://play.pokemonshowdown.com/fx/bg-thunderplains.png")
+    .sprite
+        flex: 0 0 60%
+        image-rendering: pixelated
+    .pet
+        grid-area: pet
+    .pet-cost
+        grid-area: pet-cost
+    .feed
+        grid-area: feed
+    .feed-cost
+        grid-area: feed-cost
+    .play
+        grid-area: play
+    .play-cost
+        grid-area: play-cost

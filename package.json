@@ -14,8 +14,10 @@
     "@rollup/pluginutils": "^5.0.2",
     "@types/node": "^18.14.2",
     "cheerio": "1.0.0-rc.12",
+    "sass": "^1.58.3",
     "typescript": "^4.9.5",
     "vite": "^4.1.4",
+    "vite-plugin-civet": "^0.2.5",
     "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
@@ -24,7 +26,6 @@
     "auth0-js": "^9.20.1",
     "gun": "^0.2020.1239",
     "localforage": "^1.10.0",
-    "solid-js": "^1.6.11",
-    "vite-plugin-civet": "^0.2.5"
+    "solid-js": "^1.6.11"
   }
 }

@@ -8,37 +8,38 @@ import gun/lib/store
 import gun/lib/rindexed
 localforage from localforage
 
-const StoreContext = createContext<any>()
+StoreContext := createContext<any>()
 
-export const StoreProvider = (props) ->
-    const gun = Gun
+export StoreProvider := (props) ->
+    gun := Gun
                     //peers: ['http://localhost:8765/gun']
                     localStorage: false
     // dev functions
     window['gun'] = gun
     window['reset'] = ->
-        let max = 0
-        let num = 0
+        max .= 0
+        num .= 0
         window.indexedDB.databases().then (dbs) ->
             max = dbs.length
             dbs.forEach (db) ->
-                const del = window.indexedDB.deleteDatabase db.name
+                del := window.indexedDB.deleteDatabase db.name
                 del.onsuccess = (e) ->
                     num++
                     if num is max
                         window.location.reload()
-    const schema =
+    schema :=
         key: null
         err: null
         name: ''
         currentMon: ''
         spritePref: ''
+        theme: ''
         habit: {}
         pokemon: {}
         inventory: {}
     const [state, setState] = createStore schema
                                 
-    const store =
+    store :=
         store: state
         signup: ->
             Gun.SEA.pair (key) ->
@@ -55,6 +56,8 @@ export const StoreProvider = (props) ->
                     err: null
                     name: ''
                     currentMon: ''
+                    spritePref: ''
+                    theme: ''
                     habit: {}
                     pokemon: {}
                     inventory: {}
@@ -65,9 +68,9 @@ export const StoreProvider = (props) ->
                 else
                     gun.user().auth (key as any), (ack) -> authCallback key, ack
 
-    const put = (path, data, set = false, id = '') ->
+    put := (path, data, set = false, id = '') ->
             if gun.user().is
-                const loc = ((gun.user().get path) as any)
+                loc := ((gun.user().get path) as any)
                 if set
                     if id
                         loc.get id
@@ -77,18 +80,18 @@ export const StoreProvider = (props) ->
                 else
                     loc.put data
     
-    const subscribe = (path, map = true) -> createEffect ->
+    subscribe := (path, map = true) -> createEffect ->
         if path is 'key' or path is 'err' return
-        let ev = null
+        ev .= null
         if state.key
-            const cb = (data, id, _msg, _ev) ->
+            cb := (data, id, _msg, _ev) ->
                 ev = _ev
                 if map
                     const {_: remove, ...rest} = data
                     setState path, id, rest
                 else
                     setState path, data
-            const node = ((gun.user().get path) as any)
+            node := ((gun.user().get path) as any)
             if map
                 node.map().on cb
             else
@@ -97,7 +100,7 @@ export const StoreProvider = (props) ->
             try
                 ev.off()
     
-    const authCallback = (key, ack) ->
+    authCallback := (key, ack) ->
         if ack.err
             setState err: ack.err
         else
@@ -106,13 +109,18 @@ export const StoreProvider = (props) ->
                       .put new Date().toString()
             setState key: key
     
+    ignoreKeys := ['key', 'err']
+    simpleObjKeys := ['inventory']
+
     for path of Object.keys schema
-        if path is 'key' or path is 'err'
+        if path is in ignoreKeys
             continue
-        const methodname = 'put' + path[0].toUpperCase() + path.substring 1
+        methodname := 'put' + path[0].toUpperCase() + path.substring 1
         if typeof schema[path] is 'string'
             store[methodname] = (val) -> put path, val
             subscribe path, false
+        else if path is in simpleObjKeys
+            store[methodname] = (val) -> put path, val
         else
             store[methodname] = (val, id = '') -> put path, val, true, id
             subscribe path
@@ -120,4 +128,4 @@ export const StoreProvider = (props) ->
     <StoreContext.Provider value={store}>
         {props.children}
 
-export const useStore = -> useContext StoreContext
+export useStore := -> useContext StoreContext

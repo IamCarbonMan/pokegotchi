@@ -3,9 +3,9 @@
 
 export default ->
     const {store, putName, putPokemon} = useStore()
-    const handleSubmit = (e) ->
+    handleSubmit := (e) ->
         e.preventDefault()
-        const sel = e.target.elements[1]
+        sel := e.target.elements[1]
         putPokemon genMon sel.options[sel.selectedIndex].value
         putName e.target.elements[0].value
     <div>
